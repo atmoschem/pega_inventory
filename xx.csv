@@ -1,0 +1,1334 @@
+source,code,category
+IPCC,,
+IPCC,1,"1 - Energy
+1.A - Fuel Combustion Activities
+1.A.1 - Energy Industries
+1.A.1.a - Main Activity Electricity and Heat Production
+1.A.1.a.i - Electricity Generation
+"
+IPCC,1.A,"1.A - Fuel Combustion Activities
+"
+IPCC,1.A,"1.A - Fuel Combustion Activities
+1.A.3.b - Road Transportation
+"
+IPCC,1.A,"1.A - Fuel Combustion Activities
+1.A.3.b - Road Transportation
+1.A.3.c - Railways
+1.A.3.d - Water-borne Navigation
+1.A.3.e.ii - Off-road
+"
+IPCC,1.A,"1.A - Fuel Combustion Activities
+1.A.3.d - Water-borne Navigation
+"
+IPCC,1.A,"1.A - Fuel Combustion Activities
+1.A.1.b - Petroleum Refining
+"
+IPCC,1.A,"1.A - Fuel Combustion Activities
+4.C.1 - Waste Incineration
+"
+IPCC,1.A.1,"1.A.1 - Energy Industries
+"
+IPCC,1.A.1,"1.A.1 - Energy Industries
+1.A.1.a - Main Activity Electricity and Heat Production
+1.A.1.a.i - Electricity Generation
+1.A.1.a.ii - Combined Heat and Power Generation (CHP)
+1.A.1.a.iii - Heat Plants
+"
+IPCC,1.A.1,"1.A.1 - Energy Industries
+1.A.2 - Manufacturing Industries and Construction
+"
+IPCC,1.A.1,"1.A.1 - Energy Industries
+1.A.4.a - Commercial/Institutional
+1.A.4.b - Residential
+1.A.4.c - Agriculture/Forestry/Fishing/Fish Farms
+1.A.4.c.i - Stationary
+"
+EMEP,1.A.1.a,Public electricity and heat production
+IPCC,1.A.1.a,"1.A.1.a - Main Activity Electricity and Heat Production
+1.A.1.a.i - Electricity Generation
+1.A.1.a.ii - Combined Heat and Power Generation (CHP)
+1.A.1.a.iii - Heat Plants
+"
+IPCC,1.A.1.a,"1.A.1.a - Main Activity Electricity and Heat Production
+"
+IPCC,1.A.1.a.i,"1.A.1.a.i - Electricity Generation
+"
+IPCC,1.A.1.a.ii,"1.A.1.a.ii - Combined Heat and Power Generation (CHP)
+"
+IPCC,1.A.1.a.iii,"1.A.1.a.iii - Heat Plants
+"
+EMEP,1.A.1.b,Petroleum refining
+IPCC,1.A.1.b,"1.A.1.b - Petroleum Refining
+"
+EMEP,1.A.1.c,Manufacture of solid fuels and other energy industries
+IPCC,1.A.1.c,"1.A.1.c - Manufacture of Solid Fuels and Other Energy Industries
+"
+IPCC,1.A.1.c.i,"1.A.1.c.i - Manufacture of Solid Fuels
+"
+IPCC,1.A.1.c.ii,"1.A.1.c.ii - Other Energy Industries
+"
+IPCC,1.A.2,"1.A.2 - Manufacturing Industries and Construction
+"
+IPCC,1.A.2,"1.A.2 - Manufacturing Industries and Construction
+1.A.4.a - Commercial/Institutional
+"
+IPCC,1.A.2,"1.A.2 - Manufacturing Industries and Construction
+1.A.4.a - Commercial/Institutional
+1.A.4.b - Residential
+1.A.4.c.ii - Off-road Vehicles and Other Machinery
+"
+EMEP,1.A.2.a,Iron and steel
+IPCC,1.A.2.a,"1.A.2.a - Iron and Steel
+"
+EMEP,1.A.2.b,Non-ferrous metals
+IPCC,1.A.2.b,"1.A.2.b - Non-Ferrous Metals
+"
+EMEP,1.A.2.c,Chemicals
+IPCC,1.A.2.c,"1.A.2.c - Chemicals
+"
+EMEP,1.A.2.d,"Pulp, paper and print"
+IPCC,1.A.2.d,"1.A.2.d - Pulp, Paper and Print
+"
+EMEP,1.A.2.e,"Food processing, beverages and tobacco"
+IPCC,1.A.2.e,"1.A.2.e - Food Processing, Beverages and Tobacco
+"
+IPCC,1.A.2.f,"1.A.2.f - Non-Metallic Minerals
+"
+IPCC,1.A.2.g,"1.A.2.g - Transport Equipment
+"
+EMEP,1.A.2.g.vii,Mobile combustion in manufacturing industries and construction: Other (Please specify in your IIR)
+EMEP,1.A.2.g.viii,Stationary combustion in manufacturing industries and construction (Please specify in your IIR)
+IPCC,1.A.2.h,"1.A.2.h - Machinery
+"
+IPCC,1.A.2.j,"1.A.2.j - Wood and wood products
+"
+IPCC,1.A.2.l,"1.A.2.l - Textile and Leather
+"
+IPCC,1.A.3,"1.A.3 - Transport
+"
+IPCC,1.A.3.a,"1.A.3.a - Civil Aviation
+"
+IPCC,1.A.3.a,"1.A.3.a - Civil Aviation
+1.A.3.a.i - International Aviation (International Bunkers)
+1.A.3.a.ii - Domestic Aviation
+"
+IPCC,1.A.3.a,"1.A.3.a - Civil Aviation
+1.A.3.a.ii - Domestic Aviation
+"
+IPCC,1.A.3.a.i,"1.A.3.a.i - International Aviation (International Bunkers)
+"
+EMEP,1.A.3.a.i.(i),International aviation (LTO)
+IPCC,1.A.3.a.ii,"1.A.3.a.ii - Domestic Aviation
+"
+EMEP,1.A.3.a.ii.(i),"Civil aviation (domestic, LTO)"
+IPCC,1.A.3.b,"1.A.3.b - Road Transportation
+"
+IPCC,1.A.3.b,"1.A.3.b - Road Transportation
+1.A.3.b.ii - Light-duty trucks
+1.A.3.b.iii - Heavy-duty trucks and buses
+"
+IPCC,1.A.3.b,"1.A.3.b - Road Transportation
+1.A.3.b.i - Cars
+"
+EMEP,1.A.3.b.i,"Road transport, passenger cars"
+IPCC,1.A.3.b.i,"1.A.3.b.i - Cars
+"
+IPCC,1.A.3.b.i,"1.A.3.b.i - Cars
+1.A.3.b.ii - Light-duty trucks
+"
+IPCC,1.A.3.b.i.1,"1.A.3.b.i.1 - Passenger cars with 3-way catalysts
+"
+EMEP,1.A.3.b.ii,"Road transport, light duty vehicles"
+IPCC,1.A.3.b.ii,"1.A.3.b.ii - Light-duty trucks
+"
+EMEP,1.A.3.b.iii,"Road transport, heavy duty vehicles"
+IPCC,1.A.3.b.iii,"1.A.3.b.iii - Heavy-duty trucks and buses
+"
+EMEP,1.A.3.b.iv,"Road transport, mopeds & motorcycles"
+IPCC,1.A.3.b.iv,"1.A.3.b.iv - Motorcycles
+"
+EMEP,1.A.3.b.v,"Road transport, gasoline evaporation"
+EMEP,1.A.3.b.vi,"Road transport, automobile tyre and brake wear"
+EMEP,1.A.3.b.vii,"Road transport, automobile road abrasion"
+EMEP,1.A.3.c,Railways
+IPCC,1.A.3.c,"1.A.3.c - Railways
+"
+IPCC,1.A.3.d,"1.A.3.d - Water-borne Navigation
+"
+EMEP,1.A.3.d.i,International navigation
+IPCC,1.A.3.d.i,"1.A.3.d.i - International water-borne navigation (International bunkers)
+"
+EMEP,1.A.3.d.ii,National navigation
+IPCC,1.A.3.e.ii,"1.A.3.e.ii - Off-road
+"
+IPCC,1.A.4,"1.A.4 - Other Sectors
+"
+IPCC,1.A.4.a,"1.A.4.a - Commercial/Institutional
+"
+EMEP,1.A.4.a.i,Commercial / institutional: stationary
+EMEP,1.A.4.a.ii,Commercial / institutional: mobile
+IPCC,1.A.4.b,"1.A.4.b - Residential
+"
+IPCC,1.A.4.b,"1.A.4.b - Residential
+1.A.4.c.i - Stationary
+"
+EMEP,1.A.4.b.i,Residential plants
+EMEP,1.A.4.b.ii,Household and gardening (mobile)
+EMEP,1.A.4.c.i,Agriculture / forestry / fishing: Stationary
+IPCC,1.A.4.c.i,"1.A.4.c.i - Stationary
+"
+EMEP,1.A.4.c.ii,Agriculture / forestry / fishing: Off-road vehicles and other machinery
+IPCC,1.A.4.c.ii,"1.A.4.c.ii - Off-road Vehicles and Other Machinery
+1.A.4.c.iii - Fishing (mobile combustion)
+"
+IPCC,1.A.4.c.ii,"1.A.4.c.ii - Off-road Vehicles and Other Machinery
+"
+EMEP,1.A.4.c.iii,Agriculture / forestry / fishing: National fishing
+EMEP,1.A.5.a,"Other, stationary (including military)"
+EMEP,1.A.5.b,"Other, mobile (including military, land based and recreational boats)"
+IPCC,1.A.5.b,"1.A.5.b - Mobile
+"
+EMEP,1.B.1.a,Fugitive emissions from solid fuels - Coal mining and handling
+IPCC,1.B.1.a,"1.B.1.a - Coal mining and handling
+"
+IPCC,1.B.1.a.i,"1.B.1.a.i - Underground mines
+"
+IPCC,1.B.1.a.i.1,"1.B.1.a.i.1 - Mining
+"
+IPCC,1.B.1.a.i.2,"1.B.1.a.i.2 - Post-mining seam gas emissions
+"
+IPCC,1.B.1.a.i.3,"1.B.1.a.i.3 - Abandoned underground mines
+"
+IPCC,1.B.1.a.ii,"1.B.1.a.ii - Surface mines
+"
+IPCC,1.B.1.a.ii,"1.B.1.a.ii - Surface mines
+1.B.1.a.ii.1 - Mining
+"
+IPCC,1.B.1.a.ii,"1.B.1.a.ii - Surface mines
+1.B.1.a.ii.2 - Post-mining seam gas emissions
+"
+IPCC,1.B.1.a.ii.1,"1.B.1.a.ii.1 - Mining
+"
+IPCC,1.B.1.a.ii.2,"1.B.1.a.ii.2 - Post-mining seam gas emissions
+"
+EMEP,1.B.1.b,Fugitive emissions from solid fuels - Solid fuel transformation
+IPCC,1.B.2,"1.B.2 - Oil and Natural Gas
+"
+IPCC,1.B.2.a,"1.B.2.a - Oil
+"
+EMEP,1.B.2.a.i,"Exploration production, transport"
+IPCC,1.B.2.a.i,"1.B.2.a.i - Venting
+"
+IPCC,1.B.2.a.ii,"1.B.2.a.ii - Flaring
+1.B.2.b.ii - Flaring
+"
+IPCC,1.B.2.a.ii,"1.B.2.a.ii - Flaring
+"
+EMEP,1.B.2.a.iv,Fugitive emissions oil: Refining / storage
+EMEP,1.B.2.a.v,Distribution of oil products
+EMEP,1.B.2.b,Natural gas
+IPCC,1.B.2.b,"1.B.2.b - Natural Gas
+"
+IPCC,1.B.2.b.i,"1.B.2.b.i - Venting
+"
+IPCC,1.B.2.b.ii,"1.B.2.b.ii - Flaring
+"
+EMEP,1.B.2.c,Venting and flaring
+EMEP,1.B.2.d,Other fugitive emissions from energy production - geothermal energy extraction
+IPCC,1.B.3,"1.B.3 - Other emissions from Energy Production
+"
+EMEP,11.B,Forest fires
+IPCC,2.A,"2.A - Mineral Industry
+2.A.3 - Glass Production
+2.A.4 - Other Process Uses of Carbonates
+2.A.4.b - Other Uses of Soda Ash
+2.A.5 - Other (please specify)
+"
+IPCC,2.A,"2.A - Mineral Industry
+2.A.5 - Other (please specify)
+"
+IPCC,2.A,"2.A - Mineral Industry
+2.A.1 - Cement production
+2.A.2 - Lime production
+2.A.3 - Glass Production
+2.A.4 - Other Process Uses of Carbonates
+2.A.4.a - Ceramics
+2.A.4.b - Other Uses of Soda Ash
+2.A.4.c - Non Metallurgical Magnesia Production
+2.A.4.d - Other (please specify)
+2.A.5 - Other (please specify)
+"
+EMEP,2.A.1,Cement production
+IPCC,2.A.1,"2.A.1 - Cement production
+"
+EMEP,2.A.2,Lime production
+IPCC,2.A.2,"2.A.2 - Lime production
+"
+EMEP,2.A.3,Glass production
+IPCC,2.A.3,"2.A.3 - Glass Production
+"
+IPCC,2.A.4,"2.A.4 - Other Process Uses of Carbonates
+"
+IPCC,2.A.4.a,"2.A.4.a - Ceramics
+"
+IPCC,2.A.4.b,"2.A.4.b - Other Uses of Soda Ash
+"
+IPCC,2.A.4.c,"2.A.4.c - Non Metallurgical Magnesia Production
+"
+IPCC,2.A.4.d,"2.A.4.d - Other (please specify)
+"
+IPCC,2.A.5,"2.A.5 - Other (please specify)
+"
+EMEP,2.A.5.a,Quarrying and mining of minerals other than coal
+EMEP,2.A.5.b,Construction and demolition
+EMEP,2.A.5.c,"Storage, handling and transport of mineral products"
+EMEP,2.B,Chemical industry
+EMEP,2.B.1,Ammonia production
+IPCC,2.B.1,"2.B.1 - Ammonia Production
+"
+EMEP,2.B.10.a,Chemical industry: Other
+EMEP,2.B.2,Nitric acid production
+IPCC,2.B.2,"2.B.2 - Nitric Acid Production
+"
+EMEP,2.B.3,Adipic acid production
+IPCC,2.B.3,"2.B.3 - Adipic Acid Production
+"
+IPCC,2.B.4,"2.B.4 - Caprolactam, Glyoxal and Glyoxylic Acid Production
+"
+EMEP,2.B.5,Carbide production
+IPCC,2.B.5,"2.B.5 - Carbide Production
+"
+EMEP,2.B.6,Titanium dioxide production
+IPCC,2.B.6,"2.B.6 - Titanium Dioxide Production
+"
+EMEP,2.B.7,Soda ash production
+IPCC,2.B.7,"2.B.7 - Soda Ash Production
+"
+IPCC,2.B.8.a,"2.B.8.a - Methanol
+"
+IPCC,2.B.8.b,"2.B.8.b - Ethylene
+"
+IPCC,2.B.8.c,"2.B.8.c - Ethylene Dichloride and Vinyl Chloride Monomer
+"
+IPCC,2.B.8.d,"2.B.8.d - Ethylene Oxide
+"
+IPCC,2.B.8.e,"2.B.8.e - Acrylonitrile
+"
+IPCC,2.B.8.f,"2.B.8.f - Carbon Black
+"
+IPCC,2.B.9.a,"2.B.9.a - By-product emissions
+"
+IPCC,2.B.9.b,"2.B.9.b - Fugitive Emissions
+"
+EMEP,2.C.1,Iron and steel production
+IPCC,2.C.1,"2.C.1 - Iron and Steel Production
+"
+EMEP,2.C.2,Ferroalloys production
+IPCC,2.C.2,"2.C.2 - Ferroalloys Production
+"
+EMEP,2.C.3,Aluminium production
+IPCC,2.C.3,"2.C.3 - Aluminium production
+"
+IPCC,2.C.4,"2.C.4 - Magnesium production
+"
+EMEP,2.C.5,Lead production
+IPCC,2.C.5,"2.C.5 - Lead Production
+"
+EMEP,2.C.6,Zinc production
+IPCC,2.C.6,"2.C.6 - Zinc Production
+"
+EMEP,2.C.7.a,Copper production
+EMEP,2.C.7.b,Nickel production
+EMEP,2.C.7.c,Other metal production
+EMEP,2.C.7.d,"Storage, handling and transport of metal products (Please specify the sources included/excluded in the notes column to the right)"
+IPCC,2.D.1,"2.D.1 - Lubricant Use
+"
+IPCC,2.D.2,"2.D.2 - Paraffin Wax Use
+"
+EMEP,2.D.3.a,Domestic solvent use including fungicides
+EMEP,2.D.3.b,Road paving with asphalt
+EMEP,2.D.3.c,Asphalt roofing
+EMEP,2.D.3.d,Coating applications
+EMEP,2.D.3.e,Degreasing
+EMEP,2.D.3.f,Dry cleaning
+EMEP,2.D.3.g,Chemical products
+EMEP,2.D.3.h,Printing
+EMEP,"2.D.3.i,2.G",""
+IPCC,2.E,"2.E - Electronics Industry
+2.E.2 - TFT Flat Panel Display
+"
+IPCC,2.E.1,"2.E.1 - Integrated Circuit or Semiconductor
+"
+IPCC,2.E.1,"2.E.1 - Integrated Circuit or Semiconductor
+2.E.2 - TFT Flat Panel Display
+2.E.3 - Photovoltaics
+"
+IPCC,2.E.1,"2.E.1 - Integrated Circuit or Semiconductor
+2.E.2 - TFT Flat Panel Display
+"
+IPCC,2.E.2,"2.E.2 - TFT Flat Panel Display
+"
+IPCC,2.E.3,"2.E.3 - Photovoltaics
+"
+IPCC,2.E.4,"2.E.4 - Heat Transfer Fluid
+"
+IPCC,2.E.4,"2.E.4 - Heat Transfer Fluid
+2.E.2 - TFT Flat Panel Display
+"
+IPCC,2.F.1,"2.F.1 - Refrigeration and Air Conditioning
+"
+IPCC,2.F.1,"2.F.1 - Refrigeration and Air Conditioning
+2.F.1.a - Refrigeration and Stationary Air Conditioning
+2.F.1.b - Mobile Air Conditioning
+2.F.6 - Other Applications (please specify)
+"
+IPCC,2.F.1.a,"2.F.1.a - Refrigeration and Stationary Air Conditioning
+"
+IPCC,2.F.1.b,"2.F.1.b - Mobile Air Conditioning
+"
+IPCC,2.F.1.b,"2.F.1.b - Mobile Air Conditioning
+2.F.1.a - Refrigeration and Stationary Air Conditioning
+"
+IPCC,2.F.2,"2.F.2 - Foam Blowing Agents
+"
+IPCC,2.F.3,"2.F.3 - Fire Protection
+"
+IPCC,2.F.4,"2.F.4 - Aerosols
+"
+IPCC,2.F.5,"2.F.5 - Solvents
+"
+IPCC,2.F.6,"2.F.6 - Other Applications (please specify)
+"
+EMEP,2.G,Other product use
+IPCC,2.G.1,"2.G.1 - Electrical Equipment
+"
+IPCC,2.G.1.a,"2.G.1.a - Manufacture of Electrical Equipment
+"
+IPCC,2.G.1.b,"2.G.1.b - Use of Electrical Equipment
+"
+IPCC,2.G.1.c,"2.G.1.c - Disposal of Electrical Equipment
+"
+IPCC,2.G.2.a,"2.G.2.a - Military Applications
+"
+IPCC,2.G.2.b,"2.G.2.b - Accelerators
+"
+IPCC,2.G.3.a,"2.G.3.a - Medical Applications
+"
+IPCC,2.G.3.b,"2.G.3.b - Propellant for pressure and aerosol products
+"
+IPCC,2.G.4,"2.G.4 - Other (Please specify)
+"
+EMEP,2.H.1,Pulp and paper industry
+EMEP,2.H.2,Food and beverages industry
+EMEP,2.I,Wood processing
+EMEP,2.K,Consumption of POPs and HMs
+IPCC,3,"3 - Agriculture, Forestry, and Other Land Use
+"
+IPCC,3,"3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+"
+IPCC,3,"3 - Agriculture, Forestry, and Other Land Use
+3.A.2 - Manure Management
+3.A.2.c - Sheep
+"
+IPCC,3,"3 - Agriculture, Forestry, and Other Land Use
+3.C - Aggregate sources and non-CO2 emissions sources on land
+3.C.6 - Indirect N2O Emissions from manure management
+"
+IPCC,3,"3 - Agriculture, Forestry, and Other Land Use
+3.C.4 - Direct N2O Emissions from managed soils
+"
+IPCC,3,"3 - Agriculture, Forestry, and Other Land Use
+3.C.7 - Rice cultivations
+"
+IPCC,3,"3 - Agriculture, Forestry, and Other Land Use
+3.C.5 - Indirect N2O Emissions from managed soils
+"
+IPCC,3.A,"3.A - Livestock
+3.A.1 - Enteric Fermentation
+3.A.1.a - Cattle
+3.A.1.j - Other (please specify)
+3.A.1.b - Buffalo
+3.A.1.c - Sheep
+3.A.1.d - Goats
+3.A.1.e - Camels
+"
+IPCC,3.A.1,"3.A.1 - Enteric Fermentation
+"
+IPCC,3.A.1.a,"3.A.1.a - Cattle
+3.A.1.b - Buffalo
+"
+IPCC,3.A.1.a,"3.A.1.a - Cattle
+"
+IPCC,3.A.1.a,"3.A.1.a - Cattle
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.1 - Enteric Fermentation
+"
+IPCC,3.A.1.a.i,"3.A.1.a.i - Dairy Cows
+"
+IPCC,3.A.1.a.i,"3.A.1.a.i - Dairy Cows
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.1 - Enteric Fermentation
+3.A.1.a - Cattle
+"
+IPCC,3.A.1.a.ii,"3.A.1.a.ii - Other Cattle
+"
+IPCC,3.A.1.a.ii,"3.A.1.a.ii - Other Cattle
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.1 - Enteric Fermentation
+"
+IPCC,3.A.1.b,"3.A.1.b - Buffalo
+"
+IPCC,3.A.1.b,"3.A.1.b - Buffalo
+3.A.2.b - Buffalo
+"
+IPCC,3.A.1.b,"3.A.1.b - Buffalo
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.1 - Enteric Fermentation
+3.A.1.a - Cattle
+"
+IPCC,3.A.1.b,"3.A.1.b - Buffalo
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.1 - Enteric Fermentation
+"
+IPCC,3.A.1.b,"3.A.1.b - Buffalo
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.1 - Enteric Fermentation
+3.A.1.a - Cattle
+3.A.1.a.i - Dairy Cows
+"
+IPCC,3.A.1.b,"3.A.1.b - Buffalo
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.1 - Enteric Fermentation
+3.A.1.a - Cattle
+3.A.1.a.ii - Other Cattle
+"
+IPCC,3.A.1.c,"3.A.1.c - Sheep
+"
+IPCC,3.A.1.c,"3.A.1.c - Sheep
+3.A.1.d - Goats
+"
+IPCC,3.A.1.c,"3.A.1.c - Sheep
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.1 - Enteric Fermentation
+"
+IPCC,3.A.1.d,"3.A.1.d - Goats
+"
+IPCC,3.A.1.d,"3.A.1.d - Goats
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.1 - Enteric Fermentation
+"
+IPCC,3.A.1.d,"3.A.1.d - Goats
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.1 - Enteric Fermentation
+3.A.1.c - Sheep
+"
+IPCC,3.A.1.e,"3.A.1.e - Camels
+"
+IPCC,3.A.1.e,"3.A.1.e - Camels
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.1 - Enteric Fermentation
+"
+IPCC,3.A.1.f,"3.A.1.f - Horses
+"
+IPCC,3.A.1.f,"3.A.1.f - Horses
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.1 - Enteric Fermentation
+"
+IPCC,3.A.1.g,"3.A.1.g - Mules and Asses
+"
+IPCC,3.A.1.g,"3.A.1.g - Mules and Asses
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.1 - Enteric Fermentation
+"
+IPCC,3.A.1.h,"3.A.1.h - Swine
+"
+IPCC,3.A.1.h,"3.A.1.h - Swine
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.1 - Enteric Fermentation
+"
+IPCC,3.A.1.j,"3.A.1.j - Other (please specify)
+"
+IPCC,3.A.1.j,"3.A.1.j - Other (please specify)
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.1 - Enteric Fermentation
+"
+IPCC,3.A.2,"3.A.2 - Manure Management
+"
+IPCC,3.A.2,"3.A.2 - Manure Management
+3.A.2.j - Other (please specify)
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+"
+IPCC,3.A.2,"3.A.2 - Manure Management
+3.A.2.h - Swine
+"
+IPCC,3.A.2.a,"3.A.2.a - Cattle
+"
+IPCC,3.A.2.a,"3.A.2.a - Cattle
+3.A.2.j - Other (please specify)
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+"
+IPCC,3.A.2.a.i,"3.A.2.a.i - Dairy cows
+"
+IPCC,3.A.2.a.i,"3.A.2.a.i - Dairy cows
+3.A.2.a.ii - Other cattle
+"
+IPCC,3.A.2.a.i,"3.A.2.a.i - Dairy cows
+3.A.2.h - Swine
+"
+IPCC,3.A.2.a.i,"3.A.2.a.i - Dairy cows
+3.A.2.c - Sheep
+3.A.2.h - Swine
+"
+IPCC,3.A.2.a.i,"3.A.2.a.i - Dairy cows
+3.A.2.c - Sheep
+"
+IPCC,3.A.2.a.i,"3.A.2.a.i - Dairy cows
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+"
+IPCC,3.A.2.a.ii,"3.A.2.a.ii - Other cattle
+"
+IPCC,3.A.2.a.ii,"3.A.2.a.ii - Other cattle
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+"
+IPCC,3.A.2.a.ii,"3.A.2.a.ii - Other cattle
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.1 - Enteric Fermentation
+3.A.1.a.ii - Other Cattle
+3.A.2 - Manure Management
+"
+IPCC,3.A.2.b,"3.A.2.b - Buffalo
+"
+IPCC,3.A.2.b,"3.A.2.b - Buffalo
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+"
+IPCC,3.A.2.b,"3.A.2.b - Buffalo
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.1 - Enteric Fermentation
+3.A.1.b - Buffalo
+3.A.2 - Manure Management
+"
+IPCC,3.A.2.c,"3.A.2.c - Sheep
+"
+IPCC,3.A.2.c,"3.A.2.c - Sheep
+3.A.2.h - Swine
+"
+IPCC,3.A.2.c,"3.A.2.c - Sheep
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+"
+IPCC,3.A.2.c,"3.A.2.c - Sheep
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+3.A.2.a - Cattle
+"
+IPCC,3.A.2.d,"3.A.2.d - Goats
+"
+IPCC,3.A.2.d,"3.A.2.d - Goats
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+"
+IPCC,3.A.2.e,"3.A.2.e - Camels
+"
+IPCC,3.A.2.e,"3.A.2.e - Camels
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+"
+IPCC,3.A.2.f,"3.A.2.f - Horses
+"
+IPCC,3.A.2.f,"3.A.2.f - Horses
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+"
+IPCC,3.A.2.g,"3.A.2.g - Mules and Asses
+"
+IPCC,3.A.2.g,"3.A.2.g - Mules and Asses
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+"
+IPCC,3.A.2.g,"3.A.2.g - Mules and Asses
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+3.A.2.f - Horses
+"
+IPCC,3.A.2.h,"3.A.2.h - Swine
+"
+IPCC,3.A.2.h,"3.A.2.h - Swine
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+"
+IPCC,3.A.2.i,"3.A.2.i - Poultry
+"
+IPCC,3.A.2.i,"3.A.2.i - Poultry
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+"
+IPCC,3.A.2.i,"3.A.2.i - Poultry
+3.A.2.j - Other (please specify)
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+3.A.2.a - Cattle
+3.A.2.b - Buffalo
+3.A.2.c - Sheep
+3.A.2.d - Goats
+3.A.2.e - Camels
+3.A.2.f - Horses
+3.A.2.g - Mules and Asses
+3.A.2.h - Swine
+"
+IPCC,3.A.2.j,"3.A.2.j - Other (please specify)
+"
+IPCC,3.A.2.j,"3.A.2.j - Other (please specify)
+3 - Agriculture, Forestry, and Other Land Use
+3.A.2 - Manure Management
+3.A.2.a - Cattle
+3.A.2.b - Buffalo
+3.A.2.c - Sheep
+3.A.2.d - Goats
+3.A.2.e - Camels
+3.A.2.f - Horses
+3.A.2.g - Mules and Asses
+3.A.2.h - Swine
+3.A.2.i - Poultry
+"
+IPCC,3.A.2.j,"3.A.2.j - Other (please specify)
+3 - Agriculture, Forestry, and Other Land Use
+3.A.2 - Manure Management
+3.A.2.a - Cattle
+"
+IPCC,3.A.2.j,"3.A.2.j - Other (please specify)
+3.C.4 - Direct N2O Emissions from managed soils
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+"
+IPCC,3.A.2.j,"3.A.2.j - Other (please specify)
+3.C.6 - Indirect N2O Emissions from manure management
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+"
+IPCC,3.B,"3.B - Land
+"
+IPCC,3.B,"3.B - Land
+3 - Agriculture, Forestry, and Other Land Use
+"
+EMEP,3.B.1,Cattle
+IPCC,3.B.1,"3.B.1 - Forest land
+"
+IPCC,3.B.1,"3.B.1 - Forest land
+3.B.4 - Wetlands
+"
+IPCC,3.B.1,"3.B.1 - Forest land
+3.B.2 - Cropland
+"
+IPCC,3.B.1,"3.B.1 - Forest land
+3.B.3 - Grassland
+"
+IPCC,3.B.1,"3.B.1 - Forest land
+3.B.2 - Cropland
+3.B.3 - Grassland
+"
+IPCC,3.B.1,"3.B.1 - Forest land
+3.B.2 - Cropland
+3.B.5 - Settlements
+"
+IPCC,3.B.1,"3.B.1 - Forest land
+3 - Agriculture, Forestry, and Other Land Use
+3.B - Land
+"
+EMEP,3.B.1.a,Dairy cattle
+IPCC,3.B.1.a,"3.B.1.a - Forest land Remaining Forest land
+"
+IPCC,3.B.1.a,"3.B.1.a - Forest land Remaining Forest land
+3.B.1.b.iii - Wetlands converted to Forest Land
+3.B.4.a - Wetlands Remaining Wetlands
+3.B.4.b.iii - Land converted to other wetlands
+"
+IPCC,3.B.1.a,"3.B.1.a - Forest land Remaining Forest land
+3.B.2.a - Cropland Remaining Cropland
+"
+IPCC,3.B.1.a,"3.B.1.a - Forest land Remaining Forest land
+3.B.3.a - Grassland Remaining Grassland
+"
+IPCC,3.B.1.a,"3.B.1.a - Forest land Remaining Forest land
+3.B.2.b.i - Forest Land converted to Cropland
+"
+IPCC,3.B.1.a,"3.B.1.a - Forest land Remaining Forest land
+3.B.3.b.i - Forest Land converted to Grassland
+"
+IPCC,3.B.1.a,"3.B.1.a - Forest land Remaining Forest land
+3.B.2.b.i - Forest Land converted to Cropland
+3.B.3.b.i - Forest Land converted to Grassland
+"
+IPCC,3.B.1.a,"3.B.1.a - Forest land Remaining Forest land
+3.B.2.b.i - Forest Land converted to Cropland
+3.B.5.b.i - Forest Land converted to Settlements
+"
+IPCC,3.B.1.a,"3.B.1.a - Forest land Remaining Forest land
+3.B.4.a - Wetlands Remaining Wetlands
+"
+IPCC,3.B.1.a,"3.B.1.a - Forest land Remaining Forest land
+3.B.6.b.i - Forest Land converted to Other Land
+3.B.5.b.iv - Wetlands converted to Settlements
+3.B.5.b.i - Forest Land converted to Settlements
+3.B.4.a - Wetlands Remaining Wetlands
+3.B.4.b - Land Converted to Wetlands
+3.B.6.b.iv - Wetlands converted to Other Land
+"
+IPCC,3.B.1.a,"3.B.1.a - Forest land Remaining Forest land
+3.B.6.b.i - Forest Land converted to Other Land
+3.B.5.b.i - Forest Land converted to Settlements
+3.B.4.b - Land Converted to Wetlands
+"
+IPCC,3.B.1.a,"3.B.1.a - Forest land Remaining Forest land
+3.B.5.b.iv - Wetlands converted to Settlements
+3.B.5.b.i - Forest Land converted to Settlements
+3.B.4.a - Wetlands Remaining Wetlands
+3.B.4.b - Land Converted to Wetlands
+3.B.6.b.i - Forest Land converted to Other Land
+3.B.6.b.iv - Wetlands converted to Other Land
+"
+IPCC,3.B.1.a,"3.B.1.a - Forest land Remaining Forest land
+3.B.1.b.i - Cropland converted to Forest Land
+3.B.2.a - Cropland Remaining Cropland
+3.B.2.b.i - Forest Land converted to Cropland
+"
+EMEP,3.B.1.b,Non-dairy cattle
+IPCC,3.B.1.b,"3.B.1.b - Land Converted to Forest land
+"
+IPCC,3.B.1.b,"3.B.1.b - Land Converted to Forest land
+3.B.2.b - Land Converted to Cropland
+"
+IPCC,3.B.1.b.i,"3.B.1.b.i - Cropland converted to Forest Land
+3.B.2.a - Cropland Remaining Cropland
+"
+IPCC,3.B.1.b.i,"3.B.1.b.i - Cropland converted to Forest Land
+3.B.2.a - Cropland Remaining Cropland
+3.B.3.b.ii - Cropland converted to Grassland
+"
+IPCC,3.B.1.b.i,"3.B.1.b.i - Cropland converted to Forest Land
+3.B.3.b.ii - Cropland converted to Grassland
+"
+IPCC,3.B.1.b.i,"3.B.1.b.i - Cropland converted to Forest Land
+3.B.1.b.ii - Grassland converted to Forest Land
+3.B.3.b.i - Forest Land converted to Grassland
+3.B.3.b.ii - Cropland converted to Grassland
+3.C.1.a - Burning in Forest Land
+3.C.1.c - Burning in Grassland
+"
+IPCC,3.B.1.b.ii,"3.B.1.b.ii - Grassland converted to Forest Land
+3.B.3.a - Grassland Remaining Grassland
+"
+IPCC,3.B.1.b.ii,"3.B.1.b.ii - Grassland converted to Forest Land
+3.B.2.b.ii - Grassland converted to Cropland
+3.B.3.a - Grassland Remaining Grassland
+"
+IPCC,3.B.1.b.ii,"3.B.1.b.ii - Grassland converted to Forest Land
+"
+IPCC,3.B.1.b.iii,"3.B.1.b.iii - Wetlands converted to Forest Land
+"
+IPCC,3.B.1.b.iii,"3.B.1.b.iii - Wetlands converted to Forest Land
+3.B.4.a - Wetlands Remaining Wetlands
+"
+EMEP,3.B.2,Sheep
+IPCC,3.B.2,"3.B.2 - Cropland
+"
+IPCC,3.B.2,"3.B.2 - Cropland
+3.B.2.b - Land Converted to Cropland
+"
+IPCC,3.B.2.a,"3.B.2.a - Cropland Remaining Cropland
+"
+IPCC,3.B.2.a,"3.B.2.a - Cropland Remaining Cropland
+3.B.1.b.i - Cropland converted to Forest Land
+3.B.3.b.ii - Cropland converted to Grassland
+3.B.6.b.ii - Cropland converted to Other Land
+3.B.5.b.ii - Cropland converted to Settlements
+"
+IPCC,3.B.2.b,"3.B.2.b - Land Converted to Cropland
+"
+IPCC,3.B.2.b.i,"3.B.2.b.i - Forest Land converted to Cropland
+3.B.1.a - Forest land Remaining Forest land
+3.B.5.b - Land Converted to Settlements
+"
+IPCC,3.B.2.b.i,"3.B.2.b.i - Forest Land converted to Cropland
+3.B.1.a - Forest land Remaining Forest land
+3.B.5.b.i - Forest Land converted to Settlements
+3.B.2.b.ii - Grassland converted to Cropland
+3.B.3.a - Grassland Remaining Grassland
+3.B.5.b.iii - Grassland converted to Settlements
+"
+IPCC,3.B.2.b.i,"3.B.2.b.i - Forest Land converted to Cropland
+3.B.1.a - Forest land Remaining Forest land
+3.B.5.b.i - Forest Land converted to Settlements
+"
+IPCC,3.B.2.b.i,"3.B.2.b.i - Forest Land converted to Cropland
+3.B.1.a - Forest land Remaining Forest land
+3.B.2.b.ii - Grassland converted to Cropland
+3.B.3.a - Grassland Remaining Grassland
+"
+IPCC,3.B.2.b.i,"3.B.2.b.i - Forest Land converted to Cropland
+"
+IPCC,3.B.2.b.i,"3.B.2.b.i - Forest Land converted to Cropland
+3.B.3.b.i - Forest Land converted to Grassland
+3.B.4.b - Land Converted to Wetlands
+3.B.5.b.i - Forest Land converted to Settlements
+3.B.6.b.i - Forest Land converted to Other Land
+3.C.1.a - Burning in Forest Land
+"
+IPCC,3.B.2.b.i,"3.B.2.b.i - Forest Land converted to Cropland
+3.B.1.a - Forest land Remaining Forest land
+3.B.3.b.i - Forest Land converted to Grassland
+3.B.6.b.i - Forest Land converted to Other Land
+3.B.5.b.i - Forest Land converted to Settlements
+"
+IPCC,3.B.2.b.i,"3.B.2.b.i - Forest Land converted to Cropland
+3.B.2.b.iii - Wetlands converted to Cropland
+"
+IPCC,3.B.2.b.i,"3.B.2.b.i - Forest Land converted to Cropland
+3.C.1.b - Burning in Cropland
+3.B.1.a - Forest land Remaining Forest land
+3.C.1.a - Burning in Forest Land
+3.B.3.b.i - Forest Land converted to Grassland
+3.B.4.b.iii - Land converted to other wetlands
+3.B.5.b.i - Forest Land converted to Settlements
+3.B.6.b.i - Forest Land converted to Other Land
+3.C.1.c - Burning in Grassland
+3.C.1.d - Burning in All Other Land
+"
+IPCC,3.B.2.b.i,"3.B.2.b.i - Forest Land converted to Cropland
+3.B.1.a - Forest land Remaining Forest land
+3.C.1.a - Burning in Forest Land
+3.B.3.b.i - Forest Land converted to Grassland
+3.B.6.b.i - Forest Land converted to Other Land
+3.B.4.b.iii - Land converted to other wetlands
+3.B.5.b.i - Forest Land converted to Settlements
+"
+IPCC,3.B.2.b.i,"3.B.2.b.i - Forest Land converted to Cropland
+3.B.1.a - Forest land Remaining Forest land
+3.C.1.a - Burning in Forest Land
+3.B.3.b.i - Forest Land converted to Grassland
+3.B.6.b.i - Forest Land converted to Other Land
+3.B.5.b.i - Forest Land converted to Settlements
+3.B.4.b.iii - Land converted to other wetlands
+"
+IPCC,3.B.2.b.i,"3.B.2.b.i - Forest Land converted to Cropland
+3.B.1 - Forest land
+3.C.1.a - Burning in Forest Land
+3.B.3.b.i - Forest Land converted to Grassland
+3.B.6.b.i - Forest Land converted to Other Land
+3.B.4.b.iii - Land converted to other wetlands
+3.B.5.b.i - Forest Land converted to Settlements
+"
+IPCC,3.B.2.b.i,"3.B.2.b.i - Forest Land converted to Cropland
+3.B.1.a - Forest land Remaining Forest land
+3.B.3.b.i - Forest Land converted to Grassland
+3.B.6.b.i - Forest Land converted to Other Land
+3.B.5.b.i - Forest Land converted to Settlements
+3.B.4.b.iii - Land converted to other wetlands
+"
+IPCC,3.B.2.b.i,"3.B.2.b.i - Forest Land converted to Cropland
+3.B.1.a - Forest land Remaining Forest land
+3.B.1.b - Land Converted to Forest land
+3.B.3.b.i - Forest Land converted to Grassland
+3.B.6.b.i - Forest Land converted to Other Land
+3.B.5.b.i - Forest Land converted to Settlements
+3.B.4.b - Land Converted to Wetlands
+"
+IPCC,3.B.2.b.i,"3.B.2.b.i - Forest Land converted to Cropland
+3.B.6.b.iii - Grassland converted to Other Land
+3.B.1.a - Forest land Remaining Forest land
+3.B.5.b.iii - Grassland converted to Settlements
+3.B.1.b.ii - Grassland converted to Forest Land
+3.B.6.b.i - Forest Land converted to Other Land
+3.B.2.b.ii - Grassland converted to Cropland
+3.B.3.a - Grassland Remaining Grassland
+3.B.3.b.i - Forest Land converted to Grassland
+3.B.4.b.iii - Land converted to other wetlands
+3.B.5.b.i - Forest Land converted to Settlements
+3.C.1.a - Burning in Forest Land
+3.C.1.c - Burning in Grassland
+"
+IPCC,3.B.2.b.i,"3.B.2.b.i - Forest Land converted to Cropland
+3.B.1.a - Forest land Remaining Forest land
+3.C.1.a - Burning in Forest Land
+3.B.3.b.i - Forest Land converted to Grassland
+3.B.6.b.i - Forest Land converted to Other Land
+3.B.4.b - Land Converted to Wetlands
+3.B.5.b.i - Forest Land converted to Settlements
+"
+IPCC,3.B.2.b.ii,"3.B.2.b.ii - Grassland converted to Cropland
+3.B.3.a - Grassland Remaining Grassland
+3.B.5.b.iii - Grassland converted to Settlements
+"
+IPCC,3.B.2.b.iii,"3.B.2.b.iii - Wetlands converted to Cropland
+3.B.5.b.iv - Wetlands converted to Settlements
+3.B.4.a - Wetlands Remaining Wetlands
+"
+IPCC,3.B.2.b.iii,"3.B.2.b.iii - Wetlands converted to Cropland
+"
+EMEP,3.B.3,Swine
+IPCC,3.B.3,"3.B.3 - Grassland
+"
+IPCC,3.B.3.a,"3.B.3.a - Grassland Remaining Grassland
+"
+IPCC,3.B.3.b,"3.B.3.b - Land Converted to Grassland
+"
+IPCC,3.B.3.b.i,"3.B.3.b.i - Forest Land converted to Grassland
+3.B.3.b.iii - Wetlands converted to Grassland
+"
+IPCC,3.B.4,"3.B.4 - Wetlands
+"
+EMEP,3.B.4.a,Buffalo
+IPCC,3.B.4.a,"3.B.4.a - Wetlands Remaining Wetlands
+"
+IPCC,3.B.4.a,"3.B.4.a - Wetlands Remaining Wetlands
+3.B.4.b.iii - Land converted to other wetlands
+"
+IPCC,3.B.4.a,"3.B.4.a - Wetlands Remaining Wetlands
+3.B.4.b - Land Converted to Wetlands
+3.B.4.b.ii - Land converted to flooded land
+3.B.4.b.iii - Land converted to other wetlands
+3.B.6.b.i - Forest Land converted to Other Land
+"
+IPCC,3.B.4.a,"3.B.4.a - Wetlands Remaining Wetlands
+3.B.4.b.ii - Land converted to flooded land
+3.B.4.b.iii - Land converted to other wetlands
+3.B.6.b.iv - Wetlands converted to Other Land
+"
+IPCC,3.B.4.a.i,"3.B.4.a.i - Peat Extraction remaining Peat Extraction
+"
+IPCC,3.B.4.a.ii,"3.B.4.a.ii - Flooded land remaining flooded land
+"
+IPCC,3.B.4.a.ii,"3.B.4.a.ii - Flooded land remaining flooded land
+3.B - Land
+3.B.4 - Wetlands
+"
+IPCC,3.B.4.a.iii,"3.B.4.a.iii - Other Wetlands Remaining Other Wetlands
+3.B.4 - Wetlands
+3.B.4.a - Wetlands Remaining Wetlands
+"
+IPCC,3.B.4.b,"3.B.4.b - Land Converted to Wetlands
+"
+IPCC,3.B.4.b.ii,"3.B.4.b.ii - Land converted to flooded land
+"
+IPCC,3.B.4.b.ii,"3.B.4.b.ii - Land converted to flooded land
+3.B - Land
+3.B.4 - Wetlands
+"
+IPCC,3.B.4.b.iii,"3.B.4.b.iii - Land converted to other wetlands
+"
+EMEP,3.B.4.d,Goats
+EMEP,3.B.4.e,Horses
+EMEP,3.B.4.f,Mules and asses
+EMEP,3.B.4.f,Mules and Asses
+EMEP,3.B.4.g.Ii,Broilers
+EMEP,3.B.4.g.i,Laying hens
+EMEP,3.B.4.g.ii,Broilers
+EMEP,3.B.4.g.iii,Turkeys
+EMEP,3.B.4.g.iii,Turkey
+EMEP,3.B.4.g.iv,Other poultry
+EMEP,3.B.4.h,Other animals
+IPCC,3.B.5,"3.B.5 - Settlements
+"
+IPCC,3.B.5,"3.B.5 - Settlements
+3 - Agriculture, Forestry, and Other Land Use
+3.B - Land
+"
+IPCC,3.B.5.a,"3.B.5.a - Settlements Remaining Settlements
+"
+IPCC,3.B.5.b,"3.B.5.b - Land Converted to Settlements
+"
+IPCC,3.B.5.b.i,"3.B.5.b.i - Forest Land converted to Settlements
+3.B.5.b.iv - Wetlands converted to Settlements
+"
+IPCC,3.B.6.b,"3.B.6.b - Land Converted to Other land
+"
+IPCC,3.B.6.b.i,"3.B.6.b.i - Forest Land converted to Other Land
+"
+IPCC,3.B.6.b.i,"3.B.6.b.i - Forest Land converted to Other Land
+3.B.5.b.i - Forest Land converted to Settlements
+3.B.4.b - Land Converted to Wetlands
+"
+IPCC,3.C,"3.C - Aggregate sources and non-CO2 emissions sources on land
+3.C.1 - Burning
+3 - Agriculture, Forestry, and Other Land Use
+"
+IPCC,3.C.1,"3.C.1 - Burning
+3.C.1.a - Burning in Forest Land
+3 - Agriculture, Forestry, and Other Land Use
+3.C - Aggregate sources and non-CO2 emissions sources on land
+"
+IPCC,3.C.1,"3.C.1 - Burning
+3.C.1.c - Burning in Grassland
+3 - Agriculture, Forestry, and Other Land Use
+3.C - Aggregate sources and non-CO2 emissions sources on land
+"
+IPCC,3.C.1,"3.C.1 - Burning
+3.C.1.d - Burning in All Other Land
+3 - Agriculture, Forestry, and Other Land Use
+3.C - Aggregate sources and non-CO2 emissions sources on land
+"
+IPCC,3.C.1,"3.C.1 - Burning
+3.C.1.b - Burning in Cropland
+3 - Agriculture, Forestry, and Other Land Use
+3.C - Aggregate sources and non-CO2 emissions sources on land
+"
+IPCC,3.C.1.a,"3.C.1.a - Burning in Forest Land
+"
+IPCC,3.C.1.b,"3.C.1.b - Burning in Cropland
+"
+IPCC,3.C.1.b,"3.C.1.b - Burning in Cropland
+3.C.1.a - Burning in Forest Land
+"
+IPCC,3.C.1.c,"3.C.1.c - Burning in Grassland
+"
+IPCC,3.C.10,"3.C.10 - CH4 from Rewetting of Organic Soils
+"
+IPCC,3.C.11,"3.C.11 - CH4 Emissions from Rewetting of Mangroves and Tidal Marshes
+"
+IPCC,3.C.12,"3.C.12 - N2O Emissions from Aquaculture
+"
+IPCC,3.C.3,"3.C.3 - Urea application
+"
+IPCC,3.C.4,"3.C.4 - Direct N2O Emissions from managed soils
+"
+IPCC,3.C.4,"3.C.4 - Direct N2O Emissions from managed soils
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+3.A.2.a.i - Dairy cows
+"
+IPCC,3.C.4,"3.C.4 - Direct N2O Emissions from managed soils
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+3.A.2.a.ii - Other cattle
+"
+IPCC,3.C.4,"3.C.4 - Direct N2O Emissions from managed soils
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+3.A.2.b - Buffalo
+"
+IPCC,3.C.4,"3.C.4 - Direct N2O Emissions from managed soils
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+3.A.2.h - Swine
+"
+IPCC,3.C.4,"3.C.4 - Direct N2O Emissions from managed soils
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+3.A.2.c - Sheep
+"
+IPCC,3.C.4,"3.C.4 - Direct N2O Emissions from managed soils
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+3.A.2.d - Goats
+"
+IPCC,3.C.4,"3.C.4 - Direct N2O Emissions from managed soils
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+3.A.2.i - Poultry
+"
+IPCC,3.C.5,"3.C.5 - Indirect N2O Emissions from managed soils
+"
+IPCC,3.C.6,"3.C.6 - Indirect N2O Emissions from manure management
+"
+IPCC,3.C.6,"3.C.6 - Indirect N2O Emissions from manure management
+3 - Agriculture, Forestry, and Other Land Use
+3.C - Aggregate sources and non-CO2 emissions sources on land
+"
+IPCC,3.C.6,"3.C.6 - Indirect N2O Emissions from manure management
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2.a.i - Dairy cows
+3.A.2 - Manure Management
+"
+IPCC,3.C.6,"3.C.6 - Indirect N2O Emissions from manure management
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2.a.ii - Other cattle
+3.A.2 - Manure Management
+"
+IPCC,3.C.6,"3.C.6 - Indirect N2O Emissions from manure management
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2.b - Buffalo
+3.A.2 - Manure Management
+"
+IPCC,3.C.6,"3.C.6 - Indirect N2O Emissions from manure management
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2.h - Swine
+3.A.2 - Manure Management
+"
+IPCC,3.C.6,"3.C.6 - Indirect N2O Emissions from manure management
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2.c - Sheep
+3.A.2 - Manure Management
+"
+IPCC,3.C.6,"3.C.6 - Indirect N2O Emissions from manure management
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2.d - Goats
+3.A.2 - Manure Management
+"
+IPCC,3.C.6,"3.C.6 - Indirect N2O Emissions from manure management
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2.i - Poultry
+3.A.2 - Manure Management
+"
+IPCC,3.C.7,"3.C.7 - Rice cultivations
+"
+IPCC,3.C.8,"3.C.8 - CH4 from Drained Organic Soils
+"
+IPCC,3.D.1,"3.D.1 - Harvested Wood Products
+"
+EMEP,3.D.a.1,Manure applied to soils
+EMEP,3.D.a.1,Inorganic N-fertilizers (includes also urea application)
+EMEP,3.D.a.2,Manure applied to soils
+EMEP,3.D.a.2.a,Animal manure applied to soils
+EMEP,3.D.a.2.b,Sewage sludge  applied to soils
+EMEP,3.D.a.2.c,Other organic fertilisers applied to soils (including compost)
+EMEP,3.D.a.3,Excreta deposited by grazing livestock
+EMEP,3.D.a.3.a,Urine and dung deposited by grazing animals
+EMEP,3.D.a.4,Crop residues applied to soils
+EMEP,3.D.c,"Farm-level agricultural operations including storage, handling and transport of agricultural products"
+EMEP,3.D.e,Cultivated crops
+IPCC,4,"4 - Waste
+4.D.1 - Domestic Wastewaster Treatment and Discharge
+"
+IPCC,4.A,"4.A - Solid Waste Disposal
+"
+IPCC,4.A,"4.A - Solid Waste Disposal
+4.B - Biological Treatment of Solid Waste
+4.C - Incineration and Open Burning of Waste
+"
+IPCC,4.A,"4.A - Solid Waste Disposal
+4.B - Biological Treatment of Solid Waste
+"
+IPCC,4.A,"4.A - Solid Waste Disposal
+4.C - Incineration and Open Burning of Waste
+"
+IPCC,4.A,"4.A - Solid Waste Disposal
+4.C.1 - Waste Incineration
+"
+IPCC,4.A,"4.A - Solid Waste Disposal
+4.A.1 - Managed Waste Disposal Sites
+"
+IPCC,4.A,"4.A - Solid Waste Disposal
+4.D.1 - Domestic Wastewaster Treatment and Discharge
+"
+IPCC,4.A,"4.A - Solid Waste Disposal
+4.A.2 - Unmanaged Waste Disposal Sites
+"
+IPCC,4.A,"4.A - Solid Waste Disposal
+4.A.3 - Uncategorised Waste Disposal Sites
+"
+IPCC,4.A,"4.A - Solid Waste Disposal
+4.A.1 - Managed Waste Disposal Sites
+4.A.2 - Unmanaged Waste Disposal Sites
+4.A.3 - Uncategorised Waste Disposal Sites
+"
+IPCC,4.A.1,"4.A.1 - Managed Waste Disposal Sites
+"
+IPCC,4.A.2,"4.A.2 - Unmanaged Waste Disposal Sites
+"
+IPCC,4.B,"4.B - Biological Treatment of Solid Waste
+"
+IPCC,4.C,"4.C - Incineration and Open Burning of Waste
+"
+IPCC,4.C.1,"4.C.1 - Waste Incineration
+"
+IPCC,4.C.1,"4.C.1 - Waste Incineration
+4.D - Wastewater Treatment and Discharge
+"
+IPCC,4.C.1,"4.C.1 - Waste Incineration
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+3.A.2.a.i - Dairy cows
+3.C.4 - Direct N2O Emissions from managed soils
+"
+IPCC,4.C.1,"4.C.1 - Waste Incineration
+3 - Agriculture, Forestry, and Other Land Use
+3.A - Livestock
+3.A.2 - Manure Management
+3.A.2.a.ii - Other cattle
+3.C.4 - Direct N2O Emissions from managed soils
+"
+IPCC,4.C.1,"4.C.1 - Waste Incineration
+4.C - Incineration and Open Burning of Waste
+"
+IPCC,4.C.2,"4.C.2 - Open Burning of Waste
+"
+IPCC,4.C.2,"4.C.2 - Open Burning of Waste
+4.C - Incineration and Open Burning of Waste
+"
+IPCC,4.D,"4.D - Wastewater Treatment and Discharge
+"
+IPCC,4.D.1,"4.D.1 - Domestic Wastewaster Treatment and Discharge
+"
+IPCC,4.D.1,"4.D.1 - Domestic Wastewaster Treatment and Discharge
+4.D.2 - Industrial Wastewater Treatment and Discharge
+"
+IPCC,4.D.2,"4.D.2 - Industrial Wastewater Treatment and Discharge
+"
+IPCC,4.E,"4.E - Other (please specify)
+"
+EMEP,5.B.1,Biological treatment of waste - Composting
+EMEP,5.B.2,Biological treatment of waste - Anaerobic digestion at biogas facilities
+EMEP,5.C.1.a,Municipal waste incineration
+EMEP,5.C.1.b.i,Industrial waste incineration
+EMEP,5.C.1.b.iii,Clinical waste incineration
+EMEP,5.C.1.b.iv,Sewage sludge incineration
+EMEP,5.C.1.b.v,Cremation
+EMEP,5.C.2,Open burning of waste
+EMEP,5.D,Wastewater handling
+EMEP,5.D.1,Domestic wastewater handling
+EMEP,5.D.2,Industrial wastewater handling
+EMEP,5.E,Other waste
