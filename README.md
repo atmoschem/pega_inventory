@@ -16,3 +16,6 @@ The primary objective is to build a systematic framework that applies normalized
 
 ## For Collaborators
 If you are helping with data collection, please read the [Data Collection Guide](data_collection_guide.md) first. It contains important instructions regarding the units we need (mostly Gigajoules, `GJ`) and the exceptions for certain fuels.
+
+## Technologies
+Note that in many cases one random echnology is selected to illustrate the use of `pega`, it is up the user to add more technologies
