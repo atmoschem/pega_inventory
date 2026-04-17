@@ -57,6 +57,11 @@ db[
 ]
 
 db[
+  code == "1.A.4",
+  unique(region)
+]
+
+db[
   code == "1.A.4" &
     is.na(tech) &
     region == "Briquettes from Rhineland mining district (Germany)"

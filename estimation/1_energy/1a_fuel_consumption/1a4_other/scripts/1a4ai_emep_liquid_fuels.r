@@ -30,7 +30,7 @@
 # "1.A.4 - Other Sectors\n"
 # "1.A.4.a - Commercial/Institutional\n"
 # "1.A.4.a.i - Commercial / institutional: stationary
-# "1.A.4.a.ii -"Commercial / institutional: mobile"
+
 library(data.table)
 library(pega)
 
@@ -38,13 +38,13 @@ library(pega)
 db <- ef(returnfdb = T)
 
 db[,
-  grep("1.A.1", code, value = T)
+  grep("1.A.4", code, value = T)
 ] |>
   unique()
 
 # database final
 db[
-  code == "1.A.1.a"
+  code == "1.A.4.a.i"
 ] -> dbf
 
 # category
@@ -54,12 +54,12 @@ dbf[, unique(category)]
 dbf[, unique(region), by = pol]
 
 db[
-  code == "1.A.4.a.ii",
+  code == "1.A.4.a.i",
   unique(tech)
 ]
 
 db[
-  code == "1.A.4.a.ii" &
+  code == "1.A.4.a.i" &
     is.na(tech)
 ] -> dbf
 
@@ -71,7 +71,7 @@ cat(fuels, sep = "\n")
 dbf[, unique(tech), by = fuel]
 
 dbf[
-  fuel == "Gasoline"
+  fuel == "Liquid Fuels"
 ] -> db_ef
 
 db_ef
@@ -85,7 +85,7 @@ activity <- data.table(
   lat = -23,
   lon = -46,
   alt = 10,
-  code = "1.A.4.a",
+  code = "1.A.4.a.i",
   activity = rnorm(n = 12, mean = 500, sd = 100),
   unit = "GJ",
   date = seq.Date(as.Date("2020-01-01"), length.out = 12, by = "month"),
@@ -108,11 +108,15 @@ rbindlist(lapply(1:nrow(activity), function(i) {
 
 dt[, emissions := ef * activity]
 # BC is % of PM2.5
-# dt[pol == "PM2.5"]
-# dt[pol == "BC"]
-# dt[pol == "BC", emissions := ef / 100 * dt[pol == "PM2.5"]$emissions]
-# dt[pol == "BC"]
+dt[pol == "PM2.5"]
+dt[pol == "BC"]
+dt[pol == "BC", emissions := ef / 100 * dt[pol == "PM2.5"]$emissions]
+dt[pol == "BC"]
 fwrite(
   dt,
-  "estimation/1/1.A/1.A.2/emissions/1A4a_IPCC_other_bituminous_coal.csv"
+  "estimation/1/1.A/1.A.4/emissions/1A4a_liquid_fuels.csv"
 )
+# Hard Coal and Brown Coal
+# Gaseous Fuels
+# Liquid Fuels
+# Biomass

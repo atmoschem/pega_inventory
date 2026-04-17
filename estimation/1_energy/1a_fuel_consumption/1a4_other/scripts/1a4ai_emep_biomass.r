@@ -27,6 +27,9 @@
 # 1.A.3.d.i - International water-borne navigation (International bunkers)\n"
 # 1.A.3.d.ii - "National navigation"
 # 1.A.3.e.ii - Off-road
+# "1.A.4 - Other Sectors\n"
+# "1.A.4.a - Commercial/Institutional\n"
+# "1.A.4.a.i - Commercial / institutional: stationary
 
 library(data.table)
 library(pega)
@@ -35,13 +38,13 @@ library(pega)
 db <- ef(returnfdb = T)
 
 db[,
-  grep("1.A.3.e", code, value = T)
+  grep("1.A.4", code, value = T)
 ] |>
   unique()
 
 # database final
 db[
-  code == "1.A.3.e.ii"
+  code == "1.A.4.a.i"
 ] -> dbf
 
 # category
@@ -51,14 +54,13 @@ dbf[, unique(category)]
 dbf[, unique(region), by = pol]
 
 db[
-  code == "1.A.3.e.ii",
+  code == "1.A.4.a.i",
   unique(tech)
 ]
 
-
 db[
-  code == "1.A.3.e.ii" &
-    tech == "Off-Road Source: Industry"
+  code == "1.A.4.a.i" &
+    is.na(tech)
 ] -> dbf
 
 # fuels
@@ -66,11 +68,10 @@ fuels <- dbf[, unique(fuel)]
 cat(fuels, sep = "\n")
 
 # tech ####
-dbf[, unique(tech)]
-
+dbf[, unique(tech), by = fuel]
 
 dbf[
-  tech == "Off-Road Source: Industry"
+  fuel == "Biomass"
 ] -> db_ef
 
 db_ef
@@ -84,7 +85,7 @@ activity <- data.table(
   lat = -23,
   lon = -46,
   alt = 10,
-  code = "1.A.3.e.ii",
+  code = "1.A.4.a.i",
   activity = rnorm(n = 12, mean = 500, sd = 100),
   unit = "GJ",
   date = seq.Date(as.Date("2020-01-01"), length.out = 12, by = "month"),
@@ -107,11 +108,15 @@ rbindlist(lapply(1:nrow(activity), function(i) {
 
 dt[, emissions := ef * activity]
 # BC is % of PM2.5
-# dt[pol == "PM2.5"]
-# dt[pol == "BC"]
-# dt[pol == "BC", emissions := ef / 100 * dt[pol == "PM2.5"]$emissions]
-# dt[pol == "BC"]
+dt[pol == "PM2.5"]
+dt[pol == "BC"]
+dt[pol == "BC", emissions := ef / 100 * dt[pol == "PM2.5"]$emissions]
+dt[pol == "BC"]
 fwrite(
   dt,
-  "estimation/1/1.A/1.A.e/emissions/1A3eii_IPCC_industry_diesel.csv"
+  "estimation/1/1.A/1.A.4/emissions/1A4a_liquid_fuels.csv"
 )
+# Hard Coal and Brown Coal
+# Gaseous Fuels
+# Liquid Fuels
+# Biomass
