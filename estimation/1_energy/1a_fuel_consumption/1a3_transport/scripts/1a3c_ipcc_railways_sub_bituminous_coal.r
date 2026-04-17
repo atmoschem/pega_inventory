@@ -67,7 +67,7 @@ fuels <- dbf[, unique(fuel)]
 cat(fuels, sep = "\n")
 
 dbf[
-  fuel == "Oil Gas",
+  fuel == "Sub-Bituminous Coal",
 ] -> db_ef
 
 db_ef
@@ -83,7 +83,7 @@ activity <- data.table(
   alt = 10,
   code = "1.A.3.c",
   activity = rnorm(n = 12, mean = 500, sd = 100),
-  unit = "tonne",
+  unit = "GJ",
   date = seq.Date(as.Date("2020-01-01"), length.out = 12, by = "month"),
   region = "HERE"
 )
@@ -110,7 +110,7 @@ dt[, emissions := ef * activity]
 # dt[pol == "BC"]
 fwrite(
   dt,
-  "estimation/1/1.A/1.A.3/emissions/1A3c_emep_oil_gas.csv"
+  "estimation/1/1.A/1.A.3/emissions/1A3c_ipcc_sub_bituminous_coal.csv"
 )
 # Oil Gas
 # Other Bituminous Coal
