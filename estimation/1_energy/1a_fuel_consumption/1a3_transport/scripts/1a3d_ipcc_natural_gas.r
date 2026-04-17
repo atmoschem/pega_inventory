@@ -24,8 +24,6 @@
 # "1.A.3.b.vi - "Road transport, automobile tyre and brake wear"
 # "1.A.3.c - "Railways"             "1.A.3.c - Railways\n"
 # "1.A.3.d - Water-borne Navigation\n"
-# 1.A.3.d.i - International water-borne navigation (International bunkers)\n"
-
 library(data.table)
 library(pega)
 
@@ -39,7 +37,7 @@ db[,
 
 # database final
 db[
-  code == "1.A.3.d.i"
+  code == "1.A.3.d"
 ] -> dbf
 
 # category
@@ -49,73 +47,75 @@ dbf[, unique(category)]
 dbf[, unique(region), by = pol]
 
 db[
-  code == "1.A.3.d.i",
+  code == "1.A.3.d",
   unique(tech)
 ]
 
-# TODO
+db[
+  code == "1.A.3.d",
+  unique(tech2)
+]
 
-# db[
-#   code == "1.A.3" &
-#     is.na(tech) &
-#     tech2 == "Car/Taxi"
-# ] -> dbf
 
-# # fuels
-# fuels <- dbf[, unique(fuel)]
-# cat(fuels, sep = "\n")
+db[
+  code == "1.A.3.d" &
+    is.na(tech)
+] -> dbf
 
-# # tech ####
-# dbf[, unique(tech)]
+# fuels
+fuels <- dbf[, unique(fuel)]
+cat(fuels, sep = "\n")
 
-# dbf[
-#   fuel == "Motor Gasoline",
-# ]
+# tech ####
+dbf[, unique(tech)]
 
-# dbf[
-#   fuel == "Motor Gasoline" &
-#     tech2 == "Car/Taxi"
-# ] -> db_ef
+dbf[
+  fuel == "Natural Gas"
+] -> db_ef
 
-# db_ef
+db_ef
 
-# db_ef[, unique(unit)]
+db_ef[, unique(unit)]
 
-# db_ef[, .N, by = pol]
+db_ef[, .N, by = pol]
 
-# activity <- data.table(
-#   id = 1,
-#   lat = -23,
-#   lon = -46,
-#   alt = 10,
-#   code = "1.A.3",
-#   activity = rnorm(n = 12, mean = 500, sd = 100),
-#   unit = "GJ",
-#   date = seq.Date(as.Date("2020-01-01"), length.out = 12, by = "month"),
-#   region = "HERE"
-# )
+activity <- data.table(
+  id = 1,
+  lat = -23,
+  lon = -46,
+  alt = 10,
+  code = "1.A.3.d",
+  activity = rnorm(n = 12, mean = 500, sd = 100),
+  unit = "GJ",
+  date = seq.Date(as.Date("2020-01-01"), length.out = 12, by = "month"),
+  region = "HERE"
+)
 
-# rbindlist(lapply(1:nrow(activity), function(i) {
-#   df <- db_ef
-#   df$id <- activity$id[i]
-#   df$lat <- activity$lat[i]
-#   df$lon <- activity$lon[i]
-#   df$alt <- activity$alt[i]
+rbindlist(lapply(1:nrow(activity), function(i) {
+  df <- db_ef
+  df$id <- activity$id[i]
+  df$lat <- activity$lat[i]
+  df$lon <- activity$lon[i]
+  df$alt <- activity$alt[i]
 
-#   df$activity <- activity$activity[i]
-#   df$unit_activity <- activity$unit[i]
-#   df$date_activity <- activity$date[i]
-#   df$region <- activity$region[i]
-#   df
-# })) -> dt
+  df$activity <- activity$activity[i]
+  df$unit_activity <- activity$unit[i]
+  df$date_activity <- activity$date[i]
+  df$region <- activity$region[i]
+  df
+})) -> dt
 
-# dt[, emissions := ef * activity]
-# # BC is % of PM2.5
-# # dt[pol == "PM2.5"]
-# # dt[pol == "BC"]
-# # dt[pol == "BC", emissions := ef / 100 * dt[pol == "PM2.5"]$emissions]
-# # dt[pol == "BC"]
-# fwrite(
-#   dt,
-#   "estimation/1/1.A/1.A.2/emissions/1A3_IPCC_motor_gasoline.csv"
-# )
+dt[, emissions := ef * activity]
+# BC is % of PM2.5
+# dt[pol == "PM2.5"]
+# dt[pol == "BC"]
+# dt[pol == "BC", emissions := ef / 100 * dt[pol == "PM2.5"]$emissions]
+# dt[pol == "BC"]
+fwrite(
+  dt,
+  "estimation/1/1.A/1.A.3/emissions/1A3d_IPCC_natural_gas.csv"
+)
+# Other Bituminous Coal
+# Other Petroleum Products
+# Natural Gas
+# Diesel Oil
