@@ -59,24 +59,13 @@ dbf[, unique(category)]
 dbf[, unique(region), by = pol]
 
 db[
-  code == "1.A.5.b",
+  code == "1.B.1.a",
   unique(tech)
 ]
 
 db[
-  code == "1.A.5.b" &
+  code == "1.B.1.a" &
     is.na(tech)
-] -> dbf
-
-# fuels
-fuels <- dbf[, unique(fuel)]
-cat(fuels, sep = "\n")
-
-# tech ####
-dbf[, unique(tech), by = fuel]
-
-dbf[
-  fuel == "Jet Kerosene"
 ] -> db_ef
 
 db_ef
@@ -90,9 +79,9 @@ activity <- data.table(
   lat = -23,
   lon = -46,
   alt = 10,
-  code = "1.A.5.b",
+  code = "1.B.1.a",
   activity = rnorm(n = 12, mean = 500, sd = 100),
-  unit = "GJ",
+  unit = "Mg coal",
   date = seq.Date(as.Date("2020-01-01"), length.out = 12, by = "month"),
   region = "HERE"
 )
@@ -116,11 +105,12 @@ dt[, emissions := ef * activity]
 # dt[pol == "PM2.5"]
 # dt[pol == "BC"]
 # dt[pol == "BC", emissions := ef / 100 * dt[pol == "PM2.5"]$emissions]
-# dt[pol == "BC"]
+dt[pol == "BC"]
 fwrite(
   dt,
-  "estimation/1/1.A/1.A.5/emissions/1A5b_IPCC_get_kerosene.csv"
+  "estimation/1/1.A/1.A.5/emissions/1A5a_EMEP_biomass.csv"
 )
-# Marine diesel oil/marine gas oil (MDO/MGO)
-# Bunker Fuel Oil
-# Jet Kerosene
+# Biomass
+# Gaseous Fuels
+# Liquid Fuels
+# Hard Coal and Brown Coal
