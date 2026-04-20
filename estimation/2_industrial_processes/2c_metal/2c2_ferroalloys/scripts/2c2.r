@@ -64,6 +64,9 @@
 # "2.B.9.b - Fugitive Emissions hfc\n"
 # "2.B.10.a - Chemical industry: Other"
 
+# "2.C.1 - Iron and Steel Production\n"
+# "2.C.2 - Ferroalloys Production\n"
+
 library(data.table)
 library(pega)
 
@@ -71,13 +74,13 @@ library(pega)
 db <- ef(returnfdb = T)
 
 db[,
-  grep("2.B.10", code, value = T)
+  grep("2.C", code, value = T)
 ] |>
   unique()
 
 # database final
 db[
-  code == "2.B.10.a"
+  code == "2.C.2"
 ] -> dbf
 
 dbf
@@ -89,15 +92,23 @@ dbf[, unique(category)]
 dbf[, unique(region), by = pol]
 
 db[
-  code == "2.B.10.a",
+  code == "2.C.2",
   unique(tech),
   by = source
-]
+][source == "EMEP"]
+
 
 db[
-  code == "2.B.10.a" &
-    tech == "High impact polystyrene (HIPS)"
-] -> db_ef
+  code == "2.C.2",
+  unique(tech),
+  by = source
+][source == "IPCC"]
+
+
+db[
+  code == "2.C.2" &
+    is.na(tech)
+][1:5] -> db_ef
 
 db_ef[, unique(source)]
 
@@ -110,7 +121,7 @@ activity <- data.table(
   lat = -23,
   lon = -46,
   alt = 10,
-  code = "2.B.9.b",
+  code = "2.C.2",
   activity = rnorm(n = 12, mean = 500, sd = 100),
   unit = "Mg",
   date = seq.Date(as.Date("2020-01-01"), length.out = 12, by = "month"),
@@ -133,12 +144,12 @@ rbindlist(lapply(1:nrow(activity), function(i) {
 
 dt[, emissions := ef * activity]
 # BC is % of PM2.5
-# dt[pol == "PM2.5"]
-# dt[pol == "BC"]
-# dt[pol == "BC", emissions := ef / 100 * dt[pol == "PM2.5"]$emissions]
-# dt[pol == "BC"]
+dt[pol == "PM2.5"]
+dt[pol == "BC"]
+dt[pol == "BC", emissions := ef  * dt[pol == "PM2.5"]$emissions]
+dt[pol == "BC"]
 
 fwrite(
   dt,
-  "estimation/2_industrial_processes/2b_chemical/2b10a/emissions/2b10a.csv"
+  "estimation/2_industrial_processes/2c_iron_steel/2c2/emissions/2c2.csv"
 )
