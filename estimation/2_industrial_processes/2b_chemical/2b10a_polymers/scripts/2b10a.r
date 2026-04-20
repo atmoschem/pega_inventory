@@ -112,7 +112,7 @@ activity <- data.table(
   alt = 10,
   code = "2.B.9.b",
   activity = rnorm(n = 12, mean = 500, sd = 100),
-  unit = "ton",
+  unit = "Mg",
   date = seq.Date(as.Date("2020-01-01"), length.out = 12, by = "month"),
   region = "HERE"
 )
