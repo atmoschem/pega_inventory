@@ -40,7 +40,6 @@
 # "1.B.2.a - Oil\n"
 # "1.B.2.b - Natural Gas\n"
 # 1.B.3 - Other emissions from Energy Production\n"
-
 # "2.A.1 - Cement production\n"
 # "2.A.2 - Lime production\n"
 # "2.A.3 - Glass Production\n"
@@ -62,8 +61,8 @@
 # "2.B.8.e - Acrylonitrile\n"
 # "2.B.8.f - Carbon Black\n"
 # "2.B.9.a - By-product emissions hfc\n"
+# "2.B.9.b - Fugitive Emissions hfc\n"
 library(data.table)
-0
 library(pega)
 
 # database
@@ -76,7 +75,7 @@ db[,
 
 # database final
 db[
-  code == "2.B.9.a"
+  code == "2.B.9.b"
 ] -> dbf
 
 dbf
@@ -88,14 +87,14 @@ dbf[, unique(category)]
 dbf[, unique(region), by = pol]
 
 db[
-  code == "2.B.9.a",
+  code == "2.B.9.b",
   unique(tech),
   by = source
 ]
 
 db[
-  code == "2.B.9.a"
-] -> db_ef
+  code == "2.B.9.b"
+][2] -> db_ef
 
 db_ef[, unique(source)]
 
@@ -108,7 +107,7 @@ activity <- data.table(
   lat = -23,
   lon = -46,
   alt = 10,
-  code = "2.B.8.f",
+  code = "2.B.9.b",
   activity = rnorm(n = 12, mean = 500, sd = 100),
   unit = "Mg",
   date = seq.Date(as.Date("2020-01-01"), length.out = 12, by = "month"),
