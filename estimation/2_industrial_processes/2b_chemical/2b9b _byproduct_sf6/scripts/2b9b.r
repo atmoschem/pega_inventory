@@ -109,7 +109,7 @@ activity <- data.table(
   alt = 10,
   code = "2.B.9.b",
   activity = rnorm(n = 12, mean = 500, sd = 100),
-  unit = "Mg",
+  unit = "SF6 produced",
   date = seq.Date(as.Date("2020-01-01"), length.out = 12, by = "month"),
   region = "HERE"
 )
@@ -137,5 +137,5 @@ dt[, emissions := ef * activity]
 
 fwrite(
   dt,
-  "estimation/2_industrial_processes/2b_chemical/2b8c/emissions/2b8c.csv"
+  "estimation/2_industrial_processes/2b_chemical/2b9b/emissions/2b9b.csv"
 )
