@@ -55,7 +55,9 @@ The repository is organized following the IPCC/NFR reporting hierarchy:
 | Guide | Description |
 | :--- | :--- |
 | 📋 [**Data Collection Guide**](docs/DATA_COLLECTION.md) | Essential instructions for collaborators on gathering activity data. |
-| 📊 [**Sector 1.A Activities**](docs/SECTOR_1A_ACTIVITIES.md) | List of expected units for all Fuel Combustion activities. |
+| 📊 [**Sector 1.A: Fuel Combustion**](docs/SECTOR_1A_ACTIVITIES.md) | Expected units for all Fuel Combustion activities. |
+| 💨 [**Sector 1.B: Fugitive Emissions**](docs/SECTOR_1B_ACTIVITIES.md) | Expected units for Fugitive Emissions (Oil, Gas, Coal). |
+| 🏭 [**Sector 2: Industrial Processes**](docs/SECTOR_2_ACTIVITIES.md) | Expected units for Industrial Processes (IPPU). |
 | 🏛️ [**Architecture & Workflow**](docs/ARCHITECTURE.md) | Detailed breakdown of the project structure and processing pipeline. |
 | 🧪 [**Methodology**](docs/METHODOLOGY.md) | Deep dive into EMEP/IPCC tiers and how `pega` handles calculations. |
 | 🤝 [**Contributing**](docs/CONTRIBUTING.md) | Guidelines for adding new sectors, fuels, or features. |
@@ -66,7 +68,12 @@ The repository is organized following the IPCC/NFR reporting hierarchy:
 
 If you are a student or postdoc working on data collection, please prioritize the **[Data Collection Guide](docs/DATA_COLLECTION.md)**. 
 
-**Key Rule**: All activity data must be normalized to **Gigajoules (GJ)** unless explicitly stated otherwise in the sector-specific instructions.
+**Key Unit Rules**: 
+- **Sector 1.A (Combustion)**: All data must be normalized to **Gigajoules (GJ)**.
+- **Sector 1.B (Fugitive)**: Varies by sub-sector (often **PJ** or **m³**).
+- **Sector 2 (IPPU)**: All data must be normalized to **Megagrams (Mg)** (Metric Tonnes).
+
+See the sector-specific instructions for detailed requirements.
 
 ---
 

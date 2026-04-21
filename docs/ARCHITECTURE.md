@@ -12,12 +12,10 @@ pega_inventory/
 ├── estimation/             # Sectoral calculation logic
 │   ├── 1_energy/
 │   │   ├── 1a_fuel_consumption/
-│   │   │   ├── 1a1_electricity_heat/
-│   │   │   │   ├── scripts/   # R scripts for each fuel
-│   │   │   │   └── emissions/ # Generated CSV outputs
-│   │   │   └── ...
-│   │   └── 1b_fugitive/
-│   ├── 2_industrial/
+│   │   └── 1b_fugitive/        # Fugitive emissions (Oil, Gas, Coal)
+│   ├── 2_industrial_processes/ # IPPU (Mineral, Chemical, Metal, etc.)
+│   ├── 3_agriculture/          # (Planned)
+│   ├── 4_waste/                # (Planned)
 │   └── ...
 ├── post/                   # Post-estimation processing
 └── docs/                   # Documentation and guides

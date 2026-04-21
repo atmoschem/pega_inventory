@@ -12,36 +12,22 @@ We are building a **bottom-up atmospheric emissions inventory**. The core emissi
 ## 2. Core Principles
 To maintain data integrity, follow these rules strictly:
 
-1.  **Unit Standardization**: Most models expect data in **Gigajoules (GJ)**.
-2.  **Explicit Conversion**: If your source is in tonnes, liters, or m³, you **must** convert it to GJ using standard net calorific values (NCV) before entry.
+1.  **Unit Standardization**: 
+    - **Sector 1.A (Fuel Combustion)**: Most models expect data in **Gigajoules (GJ)**.
+    - **Sector 2 (Industrial Processes)**: Most models expect data in **Megagrams (Mg)** (Metric Tonnes).
+2.  **Explicit Conversion**: If your source is in volume or other units, you **must** convert it to the required standard (GJ or Mg) before entry.
 3.  **Source Attribution**: Always document the specific source (URL, Report Name, Year) for every data point.
-4.  **No Assumptions**: If you encounter a fuel not listed or a unit you cannot convert, ask the project lead.
+4.  **No Assumptions**: If you encounter a fuel/process not listed or a unit you cannot convert, ask the project lead.
 
 ---
 
 ## 3. Sector-Specific Requirements
 
-### ⚡ Category 1.A.1.a - Public Electricity & Heat Production
-**Required Unit:** `GJ` (Net Calorific Value)
+For detailed lists of sectors and their expected units, refer to the following guides:
 
-| Fuel | Required Unit | Notes |
-| :--- | :--- | :--- |
-| Natural Gas | GJ | |
-| Hard Coal | GJ | |
-| Brown Coal | GJ | |
-| Biogas | GJ | |
-| Biomass / Wood | GJ | |
-| Heavy Fuel Oil | GJ | |
-| **Landfill Gas** | **m³** | *Exception to the GJ rule* |
-
-### ⛽ Category 1.A.1.b - Petroleum Refining
-**Required Unit:** `GJ` (Gigajoules)
-
-- Residual Fuel Oil
-- Natural Gas
-- Oil Gas
-- **Refinery Gas**: Exception - measured in `amount of crude oil processed`.
-- **Coke Coal**: Exception - measured in `tonnes of coke produced`.
+- 📊 [**Sector 1.A: Fuel Combustion**](SECTOR_1A_ACTIVITIES.md)
+- 💨 [**Sector 1.B: Fugitive Emissions**](SECTOR_1B_ACTIVITIES.md)
+- 🏭 [**Sector 2: Industrial Processes**](SECTOR_2_ACTIVITIES.md)
 
 ---
 
@@ -52,9 +38,9 @@ Please deliver data in a structured CSV format with the following columns:
 | :--- | :--- | :--- |
 | `Year` | The calendar year of the data | `2023` |
 | `Category` | The IPCC/NFR code | `1.A.1.a` |
-| `Fuel` | The fuel name as defined in `pega` | `Natural Gas` |
+| `Fuel_or_Product` | The fuel or industrial product name | `Natural Gas` or `Cement` |
 | `Amount` | The numerical value | `1540.2` |
-| `Unit` | The unit used (must be GJ unless exception) | `GJ` |
+| `Unit` | The standard unit (GJ, Mg, etc.) | `GJ` |
 | `Source` | Link or name of the source document | `IEA 2023 Report` |
 
 ---

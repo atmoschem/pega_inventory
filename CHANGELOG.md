@@ -2,7 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased] - 2026-04-17
+## [Unreleased] - 2026-04-20
+
+### Added
+- Extensive implementation of **Sector 1.B: Fugitive Emissions** (Solid Fuels, Oil, and Natural Gas).
+- Extensive implementation of **Sector 2: Industrial Processes and Product Use (IPPU)**.
+  - Sub-sectors: 2.A (Mineral), 2.B (Chemical), 2.C (Metal), 2.D (Non-Energy Products), 2.G (Other).
+- New sector-specific activity documentation: `docs/SECTOR_1B_ACTIVITIES.md` and `docs/SECTOR_2_ACTIVITIES.md`.
+- Automated emission scripts for over 40 industrial sub-categories.
+
+## [0.2.0] - 2026-04-17
 
 ### Added
 - Created `docs/` directory for comprehensive guides.
