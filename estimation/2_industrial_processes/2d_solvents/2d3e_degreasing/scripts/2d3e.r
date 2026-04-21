@@ -81,6 +81,7 @@
 # "2.D.3.c -"Asphalt roofing"
 # "2.D.3.d - "Coating applications"
 # "2.D.3.e - "Degreasing"
+# "2.D.3.f - "Dry cleaning"
 
 library(data.table)
 library(pega)
@@ -95,7 +96,7 @@ db[,
 
 # database final
 db[
-  code == "2.D.3.d"
+  code == "2.D.3.e"
 ] -> dbf
 
 unique(dbf$pol)
@@ -107,22 +108,22 @@ dbf[, unique(category)]
 dbf[, unique(region), by = pol]
 
 db[
-  code == "2.D.3.d",
+  code == "2.D.3.e",
   unique(tech),
   by = source
 ][source == "EMEP"]
 
 
 db[
-  code == "2.D.3.d",
+  code == "2.D.3.e",
   unique(tech),
   by = source
 ][source == "IPCC"]
 
 db[
-  code == "2.D.3.d" &
+  code == "2.D.3.e" &
     is.na(tech)
-][2] -> db_ef
+] -> db_ef
 
 db_ef[, unique(source)]
 
@@ -135,7 +136,7 @@ activity <- data.table(
   lat = -23,
   lon = -46,
   alt = 10,
-  code = "2.D.3.d",
+  code = "2.D.3.e",
   activity = rnorm(n = 12, mean = 500, sd = 100),
   unit = "kg",
   date = seq.Date(as.Date("2020-01-01"), length.out = 12, by = "month"),
@@ -165,5 +166,5 @@ dt[, emissions := ef * activity]
 
 fwrite(
   dt,
-  "estimation/2_industrial_processes/2c_iron_steel/2d3d/emissions/2d3d.csv"
+  "estimation/2_industrial_processes/2c_iron_steel/2d3e/emissions/2d3e.csv"
 )

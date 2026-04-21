@@ -81,6 +81,11 @@
 # "2.D.3.c -"Asphalt roofing"
 # "2.D.3.d - "Coating applications"
 # "2.D.3.e - "Degreasing"
+# "2.D.3.f - "Dry cleaning"
+# "2.D.3.g - "Chemical products"
+# "2.D.3.h - "Printing"
+# "2.D.3.i,2.G - Oil extraction from seed"
+# "2.E - Electronics Industry\n2.E.2 - TFT Flat Panel Display\n"
 
 library(data.table)
 library(pega)
@@ -89,13 +94,13 @@ library(pega)
 db <- ef(returnfdb = T)
 
 db[,
-  grep("2.D.3", code, value = T)
+  grep("2.E", code, value = T)
 ] |>
   unique()
 
 # database final
 db[
-  code == "2.D.3.d"
+  code == "2.E"
 ] -> dbf
 
 unique(dbf$pol)
@@ -107,63 +112,63 @@ dbf[, unique(category)]
 dbf[, unique(region), by = pol]
 
 db[
-  code == "2.D.3.d",
+  code == "2.E",
   unique(tech),
   by = source
 ][source == "EMEP"]
 
-
 db[
-  code == "2.D.3.d",
+  code == "2.E",
   unique(tech),
   by = source
 ][source == "IPCC"]
 
+
 db[
-  code == "2.D.3.d" &
-    is.na(tech)
-][2] -> db_ef
+  code == "2.E"
+] -> db_ef
+# fraction, skipped
 
-db_ef[, unique(source)]
+# db_ef[, unique(source)]
 
-db_ef[, unique(tech2)]
+# db_ef[, unique(tech2)]
 
-db_ef[, .N, by = .(pol, source)]
+# db_ef[, .N, by = .(pol, source)]
 
-activity <- data.table(
-  id = 1,
-  lat = -23,
-  lon = -46,
-  alt = 10,
-  code = "2.D.3.d",
-  activity = rnorm(n = 12, mean = 500, sd = 100),
-  unit = "kg",
-  date = seq.Date(as.Date("2020-01-01"), length.out = 12, by = "month"),
-  region = "HERE"
-)
+# activity <- data.table(
+#   id = 1,
+#   lat = -23,
+#   lon = -46,
+#   alt = 10,
+#   code = "2.D.3.i",
+#   activity = rnorm(n = 12, mean = 500, sd = 100),
+#   unit = "kg",
+#   date = seq.Date(as.Date("2020-01-01"), length.out = 12, by = "month"),
+#   region = "HERE"
+# )
 
-rbindlist(lapply(1:nrow(activity), function(i) {
-  df <- db_ef
-  df$id <- activity$id[i]
-  df$lat <- activity$lat[i]
-  df$lon <- activity$lon[i]
-  df$alt <- activity$alt[i]
+# rbindlist(lapply(1:nrow(activity), function(i) {
+#   df <- db_ef
+#   df$id <- activity$id[i]
+#   df$lat <- activity$lat[i]
+#   df$lon <- activity$lon[i]
+#   df$alt <- activity$alt[i]
 
-  df$activity <- activity$activity[i]
-  df$unit_activity <- activity$unit[i]
-  df$date_activity <- activity$date[i]
-  df$region <- activity$region[i]
-  df
-})) -> dt
+#   df$activity <- activity$activity[i]
+#   df$unit_activity <- activity$unit[i]
+#   df$date_activity <- activity$date[i]
+#   df$region <- activity$region[i]
+#   df
+# })) -> dt
 
-dt[, emissions := ef * activity]
-# BC is % of PM2.5
-# dt[pol == "PM2.5"]
-# dt[pol == "BC"]
-# dt[pol == "BC", emissions := ef * dt[pol == "PM2.5"]$emissions]
-# dt[pol == "BC"]
+# dt[, emissions := ef * activity]
+# # BC is % of PM2.5
+# # dt[pol == "PM2.5"]
+# # dt[pol == "BC"]
+# # dt[pol == "BC", emissions := ef * dt[pol == "PM2.5"]$emissions]
+# # dt[pol == "BC"]
 
-fwrite(
-  dt,
-  "estimation/2_industrial_processes/2c_iron_steel/2d3d/emissions/2d3d.csv"
-)
+# fwrite(
+#   dt,
+#   "estimation/2_industrial_processes/2c_iron_steel/2d3i/emissions/2d3i.csv"
+# )

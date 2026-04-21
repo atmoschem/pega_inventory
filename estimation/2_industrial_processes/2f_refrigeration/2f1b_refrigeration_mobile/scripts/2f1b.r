@@ -75,12 +75,11 @@
 # "2.C.7.c - "Other metal production"
 # "2.C.7.d - Storage, handling and transport of metal products
 # "2.D.1 - Lubricant Use\n"
-# "2.D.2 - Paraffin Wax Use\n"
-# "2.D.3.a - Domestic solvent use including fungicides" # really important
-# "2.D.3.b -"Road paving with asphalt"
-# "2.D.3.c -"Asphalt roofing"
-# "2.D.3.d - "Coating applications"
-# "2.D.3.e - "Degreasing"
+# "2.E - Electronics Industry\n2.E.2 - TFT Flat Panel Display\n"
+# "2.E.1 - Integrated Circuit or Semiconductor\n"
+# "2.F.1 - Refrigeration and Air Conditioning\n" 
+# "2.F.1.a - Refrigeration and Stationary Air Conditioning\n"
+# "2.F.1.b - Mobile Air Conditioning\n"
 
 library(data.table)
 library(pega)
@@ -89,13 +88,13 @@ library(pega)
 db <- ef(returnfdb = T)
 
 db[,
-  grep("2.D.3", code, value = T)
+  grep("2.F", code, value = T)
 ] |>
   unique()
 
 # database final
 db[
-  code == "2.D.3.d"
+  code == "2.F.1.b"
 ] -> dbf
 
 unique(dbf$pol)
@@ -107,22 +106,25 @@ dbf[, unique(category)]
 dbf[, unique(region), by = pol]
 
 db[
-  code == "2.D.3.d",
+  code == "2.F.1.b",
   unique(tech),
   by = source
 ][source == "EMEP"]
 
 
 db[
-  code == "2.D.3.d",
+  code == "2.F.1.b",
   unique(tech),
   by = source
 ][source == "IPCC"]
 
 db[
-  code == "2.D.3.d" &
-    is.na(tech)
-][2] -> db_ef
+  code == "2.F.1.b" &
+    !is.na(ef) &
+    tech == "MVAC Buses" 
+][1] -> db_ef
+
+db_ef[, pol := gsub(" ", "", pol)]
 
 db_ef[, unique(source)]
 
@@ -135,9 +137,9 @@ activity <- data.table(
   lat = -23,
   lon = -46,
   alt = 10,
-  code = "2.D.3.d",
+  code = "2.F.1.b",
   activity = rnorm(n = 12, mean = 500, sd = 100),
-  unit = "kg",
+  unit = "lbs",
   date = seq.Date(as.Date("2020-01-01"), length.out = 12, by = "month"),
   region = "HERE"
 )
@@ -160,10 +162,10 @@ dt[, emissions := ef * activity]
 # BC is % of PM2.5
 # dt[pol == "PM2.5"]
 # dt[pol == "BC"]
-# dt[pol == "BC", emissions := ef * dt[pol == "PM2.5"]$emissions]
+# dt[pol == "BC", emissions := ef  * dt[pol == "PM2.5"]$emissions]
 # dt[pol == "BC"]
 
 fwrite(
   dt,
-  "estimation/2_industrial_processes/2c_iron_steel/2d3d/emissions/2d3d.csv"
+  "estimation/2_industrial_processes/2e/2f1b/emissions/2f1b.csv"
 )
