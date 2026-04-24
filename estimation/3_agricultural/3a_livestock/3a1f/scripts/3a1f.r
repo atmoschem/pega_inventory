@@ -101,9 +101,13 @@
 # "3.A - Livestock\n3"
 # "3.A.1 - Enteric Fermentation\n"
 # "3.A.1.a - Cattle\n"
-# "3.A.1.b - Buffalo\n"
 # "3.A.1.a.i - Dairy Cows\n"
 # "3.A.1.a.ii - Other Cattle\n"
+# "3.A.1.b - Buffalo\n"
+# "3.A.1.c - Sheep\n"
+# "3.A.1.d - Goats\n" 
+# "3.A.1.e - Camels\n" 
+# "3.A.1.f - Horses\n"
 
 library(data.table)
 library(pega)
@@ -118,7 +122,7 @@ db[,
 
 # database final
 db[
-  code == "3.A.1.a.ii"
+  code == "3.A.1.f"
 ] -> dbf
 
 unique(dbf$pol)
@@ -130,22 +134,28 @@ dbf[, unique(category)]
 dbf[, unique(region), by = pol]
 
 db[
-  code == "3.A.1.a.ii",
+  code == "3.A.1.f",
   unique(tech),
   by = source
 ][source == "EMEP"]
 
 
 db[
-  code == "3.A.1.a.ii",
+  code == "3.A.1.f",
   unique(tech),
   by = source
 ][source == "IPCC"]
 
 db[
-  code == "3.A.1.a.ii" &
-    tech == "Commercialised meat production."
-] -> db_ef
+  code == "3.A.1.f",
+  unique(unit),
+  by = source
+][source == "IPCC"]
+
+
+db[
+  code == "3.A.1.f"
+][unit == "g/head/yr"][1] -> db_ef
 
 db_ef[, pol := gsub(" ", "", pol)]
 
@@ -160,7 +170,7 @@ activity <- data.table(
   lat = -23,
   lon = -46,
   alt = 10,
-  code = "3.A.1.a.ii",
+  code = "3.A.1.f",
   activity = rnorm(n = 12, mean = 500, sd = 100),
   unit = "head/yr",
   date = seq.Date(as.Date("2020-01-01"), length.out = 12, by = "month"),
@@ -190,5 +200,5 @@ dt[, emissions := ef * activity]
 
 fwrite(
   dt,
-  "estimation/3_agricultural/3a1aii/emissions/3a1aii.csv"
+  "estimation/3_agricultural/3a1e/emissions/3a1e.csv"
 )
