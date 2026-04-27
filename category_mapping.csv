@@ -1,0 +1,280 @@
+new_code,description,emep_code,emep_description,ipcc_code,ipcc_description
+,,,,,
+1,1 - Energy | 1.A - Fuel Combustion Activities | 1.A.1 - Energy Industries | 1.A.1.a - Main Activity Electricity and Heat Production | 1.A.1.a.i - Electricity Generation,,,1,1 - Energy | 1.A - Fuel Combustion Activities | 1.A.1 - Energy Industries | 1.A.1.a - Main Activity Electricity and Heat Production | 1.A.1.a.i - Electricity Generation
+1.A,1.A - Fuel Combustion Activities,,,1.A,1.A - Fuel Combustion Activities
+1.A.1,1.A.1 - Energy Industries,,,1.A.1,1.A.1 - Energy Industries
+1.A.1.a,1.A.1.a - Main Activity Electricity and Heat Production | 1.A.1.a.i - Electricity Generation | 1.A.1.a.ii - Combined Heat and Power Generation (CHP) | 1.A.1.a.iii - Heat Plants,1.A.1.a,Public electricity and heat production,1.A.1.a,1.A.1.a - Main Activity Electricity and Heat Production | 1.A.1.a.i - Electricity Generation | 1.A.1.a.ii - Combined Heat and Power Generation (CHP) | 1.A.1.a.iii - Heat Plants
+1.A.1.a.i,1.A.1.a.i - Electricity Generation,,,1.A.1.a.i,1.A.1.a.i - Electricity Generation
+1.A.1.a.ii,1.A.1.a.ii - Combined Heat and Power Generation (CHP),,,1.A.1.a.ii,1.A.1.a.ii - Combined Heat and Power Generation (CHP)
+1.A.1.a.iii,1.A.1.a.iii - Heat Plants,,,1.A.1.a.iii,1.A.1.a.iii - Heat Plants
+1.A.1.b,1.A.1.b - Petroleum Refining,1.A.1.b,Petroleum refining,1.A.1.b,1.A.1.b - Petroleum Refining
+1.A.1.c,1.A.1.c - Manufacture of Solid Fuels and Other Energy Industries,1.A.1.c,Manufacture of solid fuels and other energy industries,1.A.1.c,1.A.1.c - Manufacture of Solid Fuels and Other Energy Industries
+1.A.1.c.i,1.A.1.c.i - Manufacture of Solid Fuels,,,1.A.1.c.i,1.A.1.c.i - Manufacture of Solid Fuels
+1.A.1.c.ii,1.A.1.c.ii - Other Energy Industries,,,1.A.1.c.ii,1.A.1.c.ii - Other Energy Industries
+1.A.2,1.A.2 - Manufacturing Industries and Construction,,,1.A.2,1.A.2 - Manufacturing Industries and Construction
+1.A.2.a,1.A.2.a - Iron and Steel,1.A.2.a,Iron and steel,1.A.2.a,1.A.2.a - Iron and Steel
+1.A.2.b,1.A.2.b - Non-Ferrous Metals,1.A.2.b,Non-ferrous metals,1.A.2.b,1.A.2.b - Non-Ferrous Metals
+1.A.2.c,1.A.2.c - Chemicals,1.A.2.c,Chemicals,1.A.2.c,1.A.2.c - Chemicals
+1.A.2.d,"1.A.2.d - Pulp, Paper and Print",1.A.2.d,"Pulp, paper and print",1.A.2.d,"1.A.2.d - Pulp, Paper and Print"
+1.A.2.e,"1.A.2.e - Food Processing, Beverages and Tobacco",1.A.2.e,"Food processing, beverages and tobacco",1.A.2.e,"1.A.2.e - Food Processing, Beverages and Tobacco"
+1.A.2.f,1.A.2.f - Non-Metallic Minerals,,,1.A.2.f,1.A.2.f - Non-Metallic Minerals
+1.A.2.g,1.A.2.g - Transport Equipment,,,1.A.2.g,1.A.2.g - Transport Equipment
+1.A.2.g.vii,Mobile combustion in manufacturing industries and construction: Other (Please specify in your IIR),1.A.2.g.vii,Mobile combustion in manufacturing industries and construction: Other (Please specify in your IIR),,
+1.A.2.g.viii,Stationary combustion in manufacturing industries and construction (Please specify in your IIR),1.A.2.g.viii,Stationary combustion in manufacturing industries and construction (Please specify in your IIR),,
+1.A.2.h,1.A.2.h - Machinery,,,1.A.2.h,1.A.2.h - Machinery
+1.A.2.j,1.A.2.j - Wood and wood products,,,1.A.2.j,1.A.2.j - Wood and wood products
+1.A.2.l,1.A.2.l - Textile and Leather,,,1.A.2.l,1.A.2.l - Textile and Leather
+1.A.3,1.A.3 - Transport,,,1.A.3,1.A.3 - Transport
+1.A.3.a,1.A.3.a - Civil Aviation,,,1.A.3.a,1.A.3.a - Civil Aviation
+1.A.3.a.i,1.A.3.a.i - International Aviation (International Bunkers),,,1.A.3.a.i,1.A.3.a.i - International Aviation (International Bunkers)
+1.A.3.a.i.(i),International aviation (LTO),1.A.3.a.i.(i),International aviation (LTO),,
+1.A.3.a.ii,1.A.3.a.ii - Domestic Aviation,,,1.A.3.a.ii,1.A.3.a.ii - Domestic Aviation
+1.A.3.a.ii.(i),"Civil aviation (domestic, LTO)",1.A.3.a.ii.(i),"Civil aviation (domestic, LTO)",,
+1.A.3.b,1.A.3.b - Road Transportation,,,1.A.3.b,1.A.3.b - Road Transportation
+1.A.3.b.i,1.A.3.b.i - Cars,1.A.3.b.i,"Road transport, passenger cars",1.A.3.b.i,1.A.3.b.i - Cars
+1.A.3.b.i.1,1.A.3.b.i.1 - Passenger cars with 3-way catalysts,,,1.A.3.b.i.1,1.A.3.b.i.1 - Passenger cars with 3-way catalysts
+1.A.3.b.ii,1.A.3.b.ii - Light-duty trucks,1.A.3.b.ii,"Road transport, light duty vehicles",1.A.3.b.ii,1.A.3.b.ii - Light-duty trucks
+1.A.3.b.iii,1.A.3.b.iii - Heavy-duty trucks and buses,1.A.3.b.iii,"Road transport, heavy duty vehicles",1.A.3.b.iii,1.A.3.b.iii - Heavy-duty trucks and buses
+1.A.3.b.iv,1.A.3.b.iv - Motorcycles,1.A.3.b.iv,"Road transport, mopeds & motorcycles",1.A.3.b.iv,1.A.3.b.iv - Motorcycles
+1.A.3.b.v,"Road transport, gasoline evaporation",1.A.3.b.v,"Road transport, gasoline evaporation",,
+1.A.3.b.vi,"Road transport, automobile tyre and brake wear",1.A.3.b.vi,"Road transport, automobile tyre and brake wear",,
+1.A.3.b.vii,"Road transport, automobile road abrasion",1.A.3.b.vii,"Road transport, automobile road abrasion",,
+1.A.3.c,1.A.3.c - Railways,1.A.3.c,Railways,1.A.3.c,1.A.3.c - Railways
+1.A.3.d,1.A.3.d - Water-borne Navigation,,,1.A.3.d,1.A.3.d - Water-borne Navigation
+1.A.3.d.i,1.A.3.d.i - International water-borne navigation (International bunkers),1.A.3.d.i,International navigation,1.A.3.d.i,1.A.3.d.i - International water-borne navigation (International bunkers)
+1.A.3.d.ii,National navigation,1.A.3.d.ii,National navigation,,
+1.A.3.e.ii,1.A.3.e.ii - Off-road,,,1.A.3.e.ii,1.A.3.e.ii - Off-road
+1.A.4,1.A.4 - Other Sectors,,,1.A.4,1.A.4 - Other Sectors
+1.A.4.a,1.A.4.a - Commercial/Institutional,,,1.A.4.a,1.A.4.a - Commercial/Institutional
+1.A.4.a.i,Commercial / institutional: stationary,1.A.4.a.i,Commercial / institutional: stationary,,
+1.A.4.a.ii,Commercial / institutional: mobile,1.A.4.a.ii,Commercial / institutional: mobile,,
+1.A.4.b,1.A.4.b - Residential,,,1.A.4.b,1.A.4.b - Residential
+1.A.4.b.i,Residential plants,1.A.4.b.i,Residential plants,,
+1.A.4.b.ii,Household and gardening (mobile),1.A.4.b.ii,Household and gardening (mobile),,
+1.A.4.c.i,1.A.4.c.i - Stationary,1.A.4.c.i,Agriculture / forestry / fishing: Stationary,1.A.4.c.i,1.A.4.c.i - Stationary
+1.A.4.c.ii,1.A.4.c.ii - Off-road Vehicles and Other Machinery | 1.A.4.c.iii - Fishing (mobile combustion),1.A.4.c.ii,Agriculture / forestry / fishing: Off-road vehicles and other machinery,1.A.4.c.ii,1.A.4.c.ii - Off-road Vehicles and Other Machinery | 1.A.4.c.iii - Fishing (mobile combustion)
+1.A.4.c.iii,Agriculture / forestry / fishing: National fishing,1.A.4.c.iii,Agriculture / forestry / fishing: National fishing,,
+1.A.5.a,"Other, stationary (including military)",1.A.5.a,"Other, stationary (including military)",,
+1.A.5.b,1.A.5.b - Mobile,1.A.5.b,"Other, mobile (including military, land based and recreational boats)",1.A.5.b,1.A.5.b - Mobile
+1.B.1.a,1.B.1.a - Coal mining and handling,1.B.1.a,Fugitive emissions from solid fuels - Coal mining and handling,1.B.1.a,1.B.1.a - Coal mining and handling
+1.B.1.a.i,1.B.1.a.i - Underground mines,,,1.B.1.a.i,1.B.1.a.i - Underground mines
+1.B.1.a.i.1,1.B.1.a.i.1 - Mining,,,1.B.1.a.i.1,1.B.1.a.i.1 - Mining
+1.B.1.a.i.2,1.B.1.a.i.2 - Post-mining seam gas emissions,,,1.B.1.a.i.2,1.B.1.a.i.2 - Post-mining seam gas emissions
+1.B.1.a.i.3,1.B.1.a.i.3 - Abandoned underground mines,,,1.B.1.a.i.3,1.B.1.a.i.3 - Abandoned underground mines
+1.B.1.a.ii,1.B.1.a.ii - Surface mines,,,1.B.1.a.ii,1.B.1.a.ii - Surface mines
+1.B.1.a.ii.1,1.B.1.a.ii.1 - Mining,,,1.B.1.a.ii.1,1.B.1.a.ii.1 - Mining
+1.B.1.a.ii.2,1.B.1.a.ii.2 - Post-mining seam gas emissions,,,1.B.1.a.ii.2,1.B.1.a.ii.2 - Post-mining seam gas emissions
+1.B.1.b,Fugitive emissions from solid fuels - Solid fuel transformation,1.B.1.b,Fugitive emissions from solid fuels - Solid fuel transformation,,
+1.B.2,1.B.2 - Oil and Natural Gas,,,1.B.2,1.B.2 - Oil and Natural Gas
+1.B.2.a,1.B.2.a - Oil,,,1.B.2.a,1.B.2.a - Oil
+1.B.2.a.i,1.B.2.a.i - Venting,1.B.2.a.i,"Exploration production, transport",1.B.2.a.i,1.B.2.a.i - Venting
+1.B.2.a.ii,1.B.2.a.ii - Flaring | 1.B.2.b.ii - Flaring,,,1.B.2.a.ii,1.B.2.a.ii - Flaring | 1.B.2.b.ii - Flaring
+1.B.2.a.iv,Fugitive emissions oil: Refining / storage,1.B.2.a.iv,Fugitive emissions oil: Refining / storage,,
+1.B.2.a.v,Distribution of oil products,1.B.2.a.v,Distribution of oil products,,
+1.B.2.b,1.B.2.b - Natural Gas,1.B.2.b,Natural gas,1.B.2.b,1.B.2.b - Natural Gas
+1.B.2.b.i,1.B.2.b.i - Venting,,,1.B.2.b.i,1.B.2.b.i - Venting
+1.B.2.b.ii,1.B.2.b.ii - Flaring,,,1.B.2.b.ii,1.B.2.b.ii - Flaring
+1.B.2.c,Venting and flaring,1.B.2.c,Venting and flaring,,
+1.B.2.d,Other fugitive emissions from energy production - geothermal energy extraction,1.B.2.d,Other fugitive emissions from energy production - geothermal energy extraction,,
+1.B.3,1.B.3 - Other emissions from Energy Production,,,1.B.3,1.B.3 - Other emissions from Energy Production
+11.B,Forest fires,11.B,Forest fires,,
+2.A,2.A - Mineral Industry | 2.A.3 - Glass Production | 2.A.4 - Other Process Uses of Carbonates | 2.A.4.b - Other Uses of Soda Ash | 2.A.5 - Other (please specify),,,2.A,2.A - Mineral Industry | 2.A.3 - Glass Production | 2.A.4 - Other Process Uses of Carbonates | 2.A.4.b - Other Uses of Soda Ash | 2.A.5 - Other (please specify)
+2.A.1,2.A.1 - Cement production,2.A.1,Cement production,2.A.1,2.A.1 - Cement production
+2.A.2,2.A.2 - Lime production,2.A.2,Lime production,2.A.2,2.A.2 - Lime production
+2.A.3,2.A.3 - Glass Production,2.A.3,Glass production,2.A.3,2.A.3 - Glass Production
+2.A.4,2.A.4 - Other Process Uses of Carbonates,,,2.A.4,2.A.4 - Other Process Uses of Carbonates
+2.A.4.a,2.A.4.a - Ceramics,,,2.A.4.a,2.A.4.a - Ceramics
+2.A.4.b,2.A.4.b - Other Uses of Soda Ash,,,2.A.4.b,2.A.4.b - Other Uses of Soda Ash
+2.A.4.c,2.A.4.c - Non Metallurgical Magnesia Production,,,2.A.4.c,2.A.4.c - Non Metallurgical Magnesia Production
+2.A.4.d,2.A.4.d - Other (please specify),,,2.A.4.d,2.A.4.d - Other (please specify)
+2.A.5,2.A.5 - Other (please specify),,,2.A.5,2.A.5 - Other (please specify)
+2.A.5.a,Quarrying and mining of minerals other than coal,2.A.5.a,Quarrying and mining of minerals other than coal,,
+2.A.5.b,Construction and demolition,2.A.5.b,Construction and demolition,,
+2.A.5.c,"Storage, handling and transport of mineral products",2.A.5.c,"Storage, handling and transport of mineral products",,
+2.B,Chemical industry,2.B,Chemical industry,,
+2.B.1,2.B.1 - Ammonia Production,2.B.1,Ammonia production,2.B.1,2.B.1 - Ammonia Production
+2.B.10.a,Chemical industry: Other,2.B.10.a,Chemical industry: Other,,
+2.B.2,2.B.2 - Nitric Acid Production,2.B.2,Nitric acid production,2.B.2,2.B.2 - Nitric Acid Production
+2.B.3,2.B.3 - Adipic Acid Production,2.B.3,Adipic acid production,2.B.3,2.B.3 - Adipic Acid Production
+2.B.4,"2.B.4 - Caprolactam, Glyoxal and Glyoxylic Acid Production",,,2.B.4,"2.B.4 - Caprolactam, Glyoxal and Glyoxylic Acid Production"
+2.B.5,2.B.5 - Carbide Production,2.B.5,Carbide production,2.B.5,2.B.5 - Carbide Production
+2.B.6,2.B.6 - Titanium Dioxide Production,2.B.6,Titanium dioxide production,2.B.6,2.B.6 - Titanium Dioxide Production
+2.B.7,2.B.7 - Soda Ash Production,2.B.7,Soda ash production,2.B.7,2.B.7 - Soda Ash Production
+2.B.8.a,2.B.8.a - Methanol,,,2.B.8.a,2.B.8.a - Methanol
+2.B.8.b,2.B.8.b - Ethylene,,,2.B.8.b,2.B.8.b - Ethylene
+2.B.8.c,2.B.8.c - Ethylene Dichloride and Vinyl Chloride Monomer,,,2.B.8.c,2.B.8.c - Ethylene Dichloride and Vinyl Chloride Monomer
+2.B.8.d,2.B.8.d - Ethylene Oxide,,,2.B.8.d,2.B.8.d - Ethylene Oxide
+2.B.8.e,2.B.8.e - Acrylonitrile,,,2.B.8.e,2.B.8.e - Acrylonitrile
+2.B.8.f,2.B.8.f - Carbon Black,,,2.B.8.f,2.B.8.f - Carbon Black
+2.B.9.a,2.B.9.a - By-product emissions,,,2.B.9.a,2.B.9.a - By-product emissions
+2.B.9.b,2.B.9.b - Fugitive Emissions,,,2.B.9.b,2.B.9.b - Fugitive Emissions
+2.C.1,2.C.1 - Iron and Steel Production,2.C.1,Iron and steel production,2.C.1,2.C.1 - Iron and Steel Production
+2.C.2,2.C.2 - Ferroalloys Production,2.C.2,Ferroalloys production,2.C.2,2.C.2 - Ferroalloys Production
+2.C.3,2.C.3 - Aluminium production,2.C.3,Aluminium production,2.C.3,2.C.3 - Aluminium production
+2.C.4,2.C.4 - Magnesium production,,,2.C.4,2.C.4 - Magnesium production
+2.C.5,2.C.5 - Lead Production,2.C.5,Lead production,2.C.5,2.C.5 - Lead Production
+2.C.6,2.C.6 - Zinc Production,2.C.6,Zinc production,2.C.6,2.C.6 - Zinc Production
+2.C.7.a,Copper production,2.C.7.a,Copper production,,
+2.C.7.b,Nickel production,2.C.7.b,Nickel production,,
+2.C.7.c,Other metal production,2.C.7.c,Other metal production,,
+2.C.7.d,"Storage, handling and transport of metal products (Please specify the sources included/excluded in the notes column to the right)",2.C.7.d,"Storage, handling and transport of metal products (Please specify the sources included/excluded in the notes column to the right)",,
+2.D.1,2.D.1 - Lubricant Use,,,2.D.1,2.D.1 - Lubricant Use
+2.D.2,2.D.2 - Paraffin Wax Use,,,2.D.2,2.D.2 - Paraffin Wax Use
+2.D.3.a,Domestic solvent use including fungicides,2.D.3.a,Domestic solvent use including fungicides,,
+2.D.3.b,Road paving with asphalt,2.D.3.b,Road paving with asphalt,,
+2.D.3.c,Asphalt roofing,2.D.3.c,Asphalt roofing,,
+2.D.3.d,Coating applications,2.D.3.d,Coating applications,,
+2.D.3.e,Degreasing,2.D.3.e,Degreasing,,
+2.D.3.f,Dry cleaning,2.D.3.f,Dry cleaning,,
+2.D.3.g,Chemical products,2.D.3.g,Chemical products,,
+2.D.3.h,Printing,2.D.3.h,Printing,,
+"2.D.3.i,2.G",,"2.D.3.i,2.G",,,
+2.E,2.E - Electronics Industry | 2.E.2 - TFT Flat Panel Display,,,2.E,2.E - Electronics Industry | 2.E.2 - TFT Flat Panel Display
+2.E.1,2.E.1 - Integrated Circuit or Semiconductor,,,2.E.1,2.E.1 - Integrated Circuit or Semiconductor
+2.E.2,2.E.2 - TFT Flat Panel Display,,,2.E.2,2.E.2 - TFT Flat Panel Display
+2.E.3,2.E.3 - Photovoltaics,,,2.E.3,2.E.3 - Photovoltaics
+2.E.4,2.E.4 - Heat Transfer Fluid,,,2.E.4,2.E.4 - Heat Transfer Fluid
+2.F.1,2.F.1 - Refrigeration and Air Conditioning,,,2.F.1,2.F.1 - Refrigeration and Air Conditioning
+2.F.1.a,2.F.1.a - Refrigeration and Stationary Air Conditioning,,,2.F.1.a,2.F.1.a - Refrigeration and Stationary Air Conditioning
+2.F.1.b,2.F.1.b - Mobile Air Conditioning,,,2.F.1.b,2.F.1.b - Mobile Air Conditioning
+2.F.2,2.F.2 - Foam Blowing Agents,,,2.F.2,2.F.2 - Foam Blowing Agents
+2.F.3,2.F.3 - Fire Protection,,,2.F.3,2.F.3 - Fire Protection
+2.F.4,2.F.4 - Aerosols,,,2.F.4,2.F.4 - Aerosols
+2.F.5,2.F.5 - Solvents,,,2.F.5,2.F.5 - Solvents
+2.F.6,2.F.6 - Other Applications (please specify),,,2.F.6,2.F.6 - Other Applications (please specify)
+2.G,Other product use,2.G,Other product use,,
+2.G.1,2.G.1 - Electrical Equipment,,,2.G.1,2.G.1 - Electrical Equipment
+2.G.1.a,2.G.1.a - Manufacture of Electrical Equipment,,,2.G.1.a,2.G.1.a - Manufacture of Electrical Equipment
+2.G.1.b,2.G.1.b - Use of Electrical Equipment,,,2.G.1.b,2.G.1.b - Use of Electrical Equipment
+2.G.1.c,2.G.1.c - Disposal of Electrical Equipment,,,2.G.1.c,2.G.1.c - Disposal of Electrical Equipment
+2.G.2.a,2.G.2.a - Military Applications,,,2.G.2.a,2.G.2.a - Military Applications
+2.G.2.b,2.G.2.b - Accelerators,,,2.G.2.b,2.G.2.b - Accelerators
+2.G.3.a,2.G.3.a - Medical Applications,,,2.G.3.a,2.G.3.a - Medical Applications
+2.G.3.b,2.G.3.b - Propellant for pressure and aerosol products,,,2.G.3.b,2.G.3.b - Propellant for pressure and aerosol products
+2.G.4,2.G.4 - Other (Please specify),,,2.G.4,2.G.4 - Other (Please specify)
+2.H.1,Pulp and paper industry,2.H.1,Pulp and paper industry,,
+2.H.2,Food and beverages industry,2.H.2,Food and beverages industry,,
+2.I,Wood processing,2.I,Wood processing,,
+2.K,Consumption of POPs and HMs,2.K,Consumption of POPs and HMs,,
+3,"3 - Agriculture, Forestry, and Other Land Use",,,3,"3 - Agriculture, Forestry, and Other Land Use"
+3.A,3.A - Livestock | 3.A.1 - Enteric Fermentation | 3.A.1.a - Cattle | 3.A.1.j - Other (please specify) | 3.A.1.b - Buffalo | 3.A.1.c - Sheep | 3.A.1.d - Goats | 3.A.1.e - Camels,,,3.A,3.A - Livestock | 3.A.1 - Enteric Fermentation | 3.A.1.a - Cattle | 3.A.1.j - Other (please specify) | 3.A.1.b - Buffalo | 3.A.1.c - Sheep | 3.A.1.d - Goats | 3.A.1.e - Camels
+3.A.1,3.A.1 - Enteric Fermentation,,,3.A.1,3.A.1 - Enteric Fermentation
+3.A.1.a,3.A.1.a - Cattle | 3.A.1.b - Buffalo,,,3.A.1.a,3.A.1.a - Cattle | 3.A.1.b - Buffalo
+3.A.1.a.i,3.A.1.a.i - Dairy Cows,,,3.A.1.a.i,3.A.1.a.i - Dairy Cows
+3.A.1.a.ii,3.A.1.a.ii - Other Cattle,,,3.A.1.a.ii,3.A.1.a.ii - Other Cattle
+3.A.1.b,3.A.1.b - Buffalo,,,3.A.1.b,3.A.1.b - Buffalo
+3.A.1.c,3.A.1.c - Sheep,,,3.A.1.c,3.A.1.c - Sheep
+3.A.1.d,3.A.1.d - Goats,,,3.A.1.d,3.A.1.d - Goats
+3.A.1.e,3.A.1.e - Camels,,,3.A.1.e,3.A.1.e - Camels
+3.A.1.f,3.A.1.f - Horses,,,3.A.1.f,3.A.1.f - Horses
+3.A.1.g,3.A.1.g - Mules and Asses,,,3.A.1.g,3.A.1.g - Mules and Asses
+3.A.1.h,3.A.1.h - Swine,,,3.A.1.h,3.A.1.h - Swine
+3.A.1.j,3.A.1.j - Other (please specify),,,3.A.1.j,3.A.1.j - Other (please specify)
+3.A.2,3.A.2 - Manure Management,,,3.A.2,3.A.2 - Manure Management
+3.A.2.a,3.A.2.a - Cattle,,,3.A.2.a,3.A.2.a - Cattle
+3.A.2.a.i,3.A.2.a.i - Dairy cows,,,3.A.2.a.i,3.A.2.a.i - Dairy cows
+3.A.2.a.ii,3.A.2.a.ii - Other cattle,,,3.A.2.a.ii,3.A.2.a.ii - Other cattle
+3.A.2.b,3.A.2.b - Buffalo,,,3.A.2.b,3.A.2.b - Buffalo
+3.A.2.c,3.A.2.c - Sheep,,,3.A.2.c,3.A.2.c - Sheep
+3.A.2.d,3.A.2.d - Goats,,,3.A.2.d,3.A.2.d - Goats
+3.A.2.e,3.A.2.e - Camels,,,3.A.2.e,3.A.2.e - Camels
+3.A.2.f,3.A.2.f - Horses,,,3.A.2.f,3.A.2.f - Horses
+3.A.2.g,3.A.2.g - Mules and Asses,,,3.A.2.g,3.A.2.g - Mules and Asses
+3.A.2.h,3.A.2.h - Swine,,,3.A.2.h,3.A.2.h - Swine
+3.A.2.i,3.A.2.i - Poultry,,,3.A.2.i,3.A.2.i - Poultry
+3.A.2.j,3.A.2.j - Other (please specify),,,3.A.2.j,3.A.2.j - Other (please specify)
+3.B,3.B - Land,,,3.B,3.B - Land
+NFR_3.B.1,Cattle,3.B.1,Cattle,,
+IPCC_3.B.1,3.B.1 - Forest land,,,3.B.1,3.B.1 - Forest land
+NFR_3.B.1.a,Dairy cattle,3.B.1.a,Dairy cattle,,
+IPCC_3.B.1.a,3.B.1.a - Forest land Remaining Forest land,,,3.B.1.a,3.B.1.a - Forest land Remaining Forest land
+NFR_3.B.1.b,Non-dairy cattle,3.B.1.b,Non-dairy cattle,,
+IPCC_3.B.1.b,3.B.1.b - Land Converted to Forest land,,,3.B.1.b,3.B.1.b - Land Converted to Forest land
+3.B.1.b.i,3.B.1.b.i - Cropland converted to Forest Land | 3.B.2.a - Cropland Remaining Cropland,,,3.B.1.b.i,3.B.1.b.i - Cropland converted to Forest Land | 3.B.2.a - Cropland Remaining Cropland
+3.B.1.b.ii,3.B.1.b.ii - Grassland converted to Forest Land | 3.B.3.a - Grassland Remaining Grassland,,,3.B.1.b.ii,3.B.1.b.ii - Grassland converted to Forest Land | 3.B.3.a - Grassland Remaining Grassland
+3.B.1.b.iii,3.B.1.b.iii - Wetlands converted to Forest Land,,,3.B.1.b.iii,3.B.1.b.iii - Wetlands converted to Forest Land
+NFR_3.B.2,Sheep,3.B.2,Sheep,,
+IPCC_3.B.2,3.B.2 - Cropland,,,3.B.2,3.B.2 - Cropland
+3.B.2.a,3.B.2.a - Cropland Remaining Cropland,,,3.B.2.a,3.B.2.a - Cropland Remaining Cropland
+3.B.2.b,3.B.2.b - Land Converted to Cropland,,,3.B.2.b,3.B.2.b - Land Converted to Cropland
+3.B.2.b.i,3.B.2.b.i - Forest Land converted to Cropland | 3.B.1.a - Forest land Remaining Forest land | 3.B.5.b - Land Converted to Settlements,,,3.B.2.b.i,3.B.2.b.i - Forest Land converted to Cropland | 3.B.1.a - Forest land Remaining Forest land | 3.B.5.b - Land Converted to Settlements
+3.B.2.b.ii,3.B.2.b.ii - Grassland converted to Cropland | 3.B.3.a - Grassland Remaining Grassland | 3.B.5.b.iii - Grassland converted to Settlements,,,3.B.2.b.ii,3.B.2.b.ii - Grassland converted to Cropland | 3.B.3.a - Grassland Remaining Grassland | 3.B.5.b.iii - Grassland converted to Settlements
+3.B.2.b.iii,3.B.2.b.iii - Wetlands converted to Cropland | 3.B.5.b.iv - Wetlands converted to Settlements | 3.B.4.a - Wetlands Remaining Wetlands,,,3.B.2.b.iii,3.B.2.b.iii - Wetlands converted to Cropland | 3.B.5.b.iv - Wetlands converted to Settlements | 3.B.4.a - Wetlands Remaining Wetlands
+NFR_3.B.3,Swine,3.B.3,Swine,,
+IPCC_3.B.3,3.B.3 - Grassland,,,3.B.3,3.B.3 - Grassland
+3.B.3.a,3.B.3.a - Grassland Remaining Grassland,,,3.B.3.a,3.B.3.a - Grassland Remaining Grassland
+3.B.3.b,3.B.3.b - Land Converted to Grassland,,,3.B.3.b,3.B.3.b - Land Converted to Grassland
+3.B.3.b.i,3.B.3.b.i - Forest Land converted to Grassland | 3.B.3.b.iii - Wetlands converted to Grassland,,,3.B.3.b.i,3.B.3.b.i - Forest Land converted to Grassland | 3.B.3.b.iii - Wetlands converted to Grassland
+3.B.4,3.B.4 - Wetlands,,,3.B.4,3.B.4 - Wetlands
+NFR_3.B.4.a,Buffalo,3.B.4.a,Buffalo,,
+IPCC_3.B.4.a,3.B.4.a - Wetlands Remaining Wetlands,,,3.B.4.a,3.B.4.a - Wetlands Remaining Wetlands
+3.B.4.a.i,3.B.4.a.i - Peat Extraction remaining Peat Extraction,,,3.B.4.a.i,3.B.4.a.i - Peat Extraction remaining Peat Extraction
+3.B.4.a.ii,3.B.4.a.ii - Flooded land remaining flooded land,,,3.B.4.a.ii,3.B.4.a.ii - Flooded land remaining flooded land
+3.B.4.a.iii,3.B.4.a.iii - Other Wetlands Remaining Other Wetlands | 3.B.4 - Wetlands | 3.B.4.a - Wetlands Remaining Wetlands,,,3.B.4.a.iii,3.B.4.a.iii - Other Wetlands Remaining Other Wetlands | 3.B.4 - Wetlands | 3.B.4.a - Wetlands Remaining Wetlands
+3.B.4.b,3.B.4.b - Land Converted to Wetlands,,,3.B.4.b,3.B.4.b - Land Converted to Wetlands
+3.B.4.b.ii,3.B.4.b.ii - Land converted to flooded land,,,3.B.4.b.ii,3.B.4.b.ii - Land converted to flooded land
+3.B.4.b.iii,3.B.4.b.iii - Land converted to other wetlands,,,3.B.4.b.iii,3.B.4.b.iii - Land converted to other wetlands
+3.B.4.d,Goats,3.B.4.d,Goats,,
+3.B.4.e,Horses,3.B.4.e,Horses,,
+3.B.4.f,Mules and asses,3.B.4.f,Mules and asses,,
+3.B.4.g.Ii,Broilers,3.B.4.g.Ii,Broilers,,
+3.B.4.g.i,Laying hens,3.B.4.g.i,Laying hens,,
+3.B.4.g.ii,Broilers,3.B.4.g.ii,Broilers,,
+3.B.4.g.iii,Turkeys,3.B.4.g.iii,Turkeys,,
+3.B.4.g.iv,Other poultry,3.B.4.g.iv,Other poultry,,
+3.B.4.h,Other animals,3.B.4.h,Other animals,,
+3.B.5,3.B.5 - Settlements,,,3.B.5,3.B.5 - Settlements
+3.B.5.a,3.B.5.a - Settlements Remaining Settlements,,,3.B.5.a,3.B.5.a - Settlements Remaining Settlements
+3.B.5.b,3.B.5.b - Land Converted to Settlements,,,3.B.5.b,3.B.5.b - Land Converted to Settlements
+3.B.5.b.i,3.B.5.b.i - Forest Land converted to Settlements | 3.B.5.b.iv - Wetlands converted to Settlements,,,3.B.5.b.i,3.B.5.b.i - Forest Land converted to Settlements | 3.B.5.b.iv - Wetlands converted to Settlements
+3.B.6.b,3.B.6.b - Land Converted to Other land,,,3.B.6.b,3.B.6.b - Land Converted to Other land
+3.B.6.b.i,3.B.6.b.i - Forest Land converted to Other Land,,,3.B.6.b.i,3.B.6.b.i - Forest Land converted to Other Land
+3.C,"3.C - Aggregate sources and non-CO2 emissions sources on land | 3.C.1 - Burning | 3 - Agriculture, Forestry, and Other Land Use",,,3.C,"3.C - Aggregate sources and non-CO2 emissions sources on land | 3.C.1 - Burning | 3 - Agriculture, Forestry, and Other Land Use"
+3.C.1,"3.C.1 - Burning | 3.C.1.a - Burning in Forest Land | 3 - Agriculture, Forestry, and Other Land Use | 3.C - Aggregate sources and non-CO2 emissions sources on land",,,3.C.1,"3.C.1 - Burning | 3.C.1.a - Burning in Forest Land | 3 - Agriculture, Forestry, and Other Land Use | 3.C - Aggregate sources and non-CO2 emissions sources on land"
+3.C.1.a,3.C.1.a - Burning in Forest Land,,,3.C.1.a,3.C.1.a - Burning in Forest Land
+3.C.1.b,3.C.1.b - Burning in Cropland,,,3.C.1.b,3.C.1.b - Burning in Cropland
+3.C.1.c,3.C.1.c - Burning in Grassland,,,3.C.1.c,3.C.1.c - Burning in Grassland
+3.C.10,3.C.10 - CH4 from Rewetting of Organic Soils,,,3.C.10,3.C.10 - CH4 from Rewetting of Organic Soils
+3.C.11,3.C.11 - CH4 Emissions from Rewetting of Mangroves and Tidal Marshes,,,3.C.11,3.C.11 - CH4 Emissions from Rewetting of Mangroves and Tidal Marshes
+3.C.12,3.C.12 - N2O Emissions from Aquaculture,,,3.C.12,3.C.12 - N2O Emissions from Aquaculture
+3.C.3,3.C.3 - Urea application,,,3.C.3,3.C.3 - Urea application
+3.C.4,3.C.4 - Direct N2O Emissions from managed soils,,,3.C.4,3.C.4 - Direct N2O Emissions from managed soils
+3.C.5,3.C.5 - Indirect N2O Emissions from managed soils,,,3.C.5,3.C.5 - Indirect N2O Emissions from managed soils
+3.C.6,3.C.6 - Indirect N2O Emissions from manure management,,,3.C.6,3.C.6 - Indirect N2O Emissions from manure management
+3.C.7,3.C.7 - Rice cultivations,,,3.C.7,3.C.7 - Rice cultivations
+3.C.8,3.C.8 - CH4 from Drained Organic Soils,,,3.C.8,3.C.8 - CH4 from Drained Organic Soils
+3.D.1,3.D.1 - Harvested Wood Products,,,3.D.1,3.D.1 - Harvested Wood Products
+3.D.a.1,Manure applied to soils,3.D.a.1,Manure applied to soils,,
+3.D.a.2,Manure applied to soils,3.D.a.2,Manure applied to soils,,
+3.D.a.2.a,Animal manure applied to soils,3.D.a.2.a,Animal manure applied to soils,,
+3.D.a.2.b,Sewage sludge  applied to soils,3.D.a.2.b,Sewage sludge  applied to soils,,
+3.D.a.2.c,Other organic fertilisers applied to soils (including compost),3.D.a.2.c,Other organic fertilisers applied to soils (including compost),,
+3.D.a.3,Excreta deposited by grazing livestock,3.D.a.3,Excreta deposited by grazing livestock,,
+3.D.a.3.a,Urine and dung deposited by grazing animals,3.D.a.3.a,Urine and dung deposited by grazing animals,,
+3.D.a.4,Crop residues applied to soils,3.D.a.4,Crop residues applied to soils,,
+3.D.c,"Farm-level agricultural operations including storage, handling and transport of agricultural products",3.D.c,"Farm-level agricultural operations including storage, handling and transport of agricultural products",,
+3.D.e,Cultivated crops,3.D.e,Cultivated crops,,
+4,4 - Waste | 4.D.1 - Domestic Wastewaster Treatment and Discharge,,,4,4 - Waste | 4.D.1 - Domestic Wastewaster Treatment and Discharge
+4.A,4.A - Solid Waste Disposal,,,4.A,4.A - Solid Waste Disposal
+4.A.1,4.A.1 - Managed Waste Disposal Sites,,,4.A.1,4.A.1 - Managed Waste Disposal Sites
+4.A.2,4.A.2 - Unmanaged Waste Disposal Sites,,,4.A.2,4.A.2 - Unmanaged Waste Disposal Sites
+4.B,4.B - Biological Treatment of Solid Waste,,,4.B,4.B - Biological Treatment of Solid Waste
+4.C,4.C - Incineration and Open Burning of Waste,,,4.C,4.C - Incineration and Open Burning of Waste
+4.C.1,4.C.1 - Waste Incineration,,,4.C.1,4.C.1 - Waste Incineration
+4.C.2,4.C.2 - Open Burning of Waste,,,4.C.2,4.C.2 - Open Burning of Waste
+4.D,4.D - Wastewater Treatment and Discharge,,,4.D,4.D - Wastewater Treatment and Discharge
+4.D.1,4.D.1 - Domestic Wastewaster Treatment and Discharge,,,4.D.1,4.D.1 - Domestic Wastewaster Treatment and Discharge
+4.D.2,4.D.2 - Industrial Wastewater Treatment and Discharge,,,4.D.2,4.D.2 - Industrial Wastewater Treatment and Discharge
+4.E,4.E - Other (please specify),,,4.E,4.E - Other (please specify)
+5.B.1,Biological treatment of waste - Composting,5.B.1,Biological treatment of waste - Composting,,
+5.B.2,Biological treatment of waste - Anaerobic digestion at biogas facilities,5.B.2,Biological treatment of waste - Anaerobic digestion at biogas facilities,,
+5.C.1.a,Municipal waste incineration,5.C.1.a,Municipal waste incineration,,
+5.C.1.b.i,Industrial waste incineration,5.C.1.b.i,Industrial waste incineration,,
+5.C.1.b.iii,Clinical waste incineration,5.C.1.b.iii,Clinical waste incineration,,
+5.C.1.b.iv,Sewage sludge incineration,5.C.1.b.iv,Sewage sludge incineration,,
+5.C.1.b.v,Cremation,5.C.1.b.v,Cremation,,
+5.C.2,Open burning of waste,5.C.2,Open burning of waste,,
+5.D,Wastewater handling,5.D,Wastewater handling,,
+5.D.1,Domestic wastewater handling,5.D.1,Domestic wastewater handling,,
+5.D.2,Industrial wastewater handling,5.D.2,Industrial wastewater handling,,
+5.E,Other waste,5.E,Other waste,,
