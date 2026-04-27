@@ -105,25 +105,38 @@
 # "3.A.1.a.ii - Other Cattle\n"
 # "3.A.1.b - Buffalo\n"
 # "3.A.1.c - Sheep\n"
-# "3.A.1.d - Goats\n" 
-# "3.A.1.e - Camels\n" 
+# "3.A.1.d - Goats\n"
+# "3.A.1.e - Camels\n"
 # "3.A.1.f - Horses\n"
-# "3.A.1.g - Mules and Asses\n"   
-# "3.A.1.h - Swine\n" 
+# "3.A.1.g - Mules and Asses\n"
+# "3.A.1.h - Swine\n"
 # "3.A.1.j - Other (please specify)\n"
-# "3.A.2 - Manure Management\n" 
-# "3.A.2.a - Cattle\n" 
-# "3.A.2.a.i - Dairy cows\n"   
+# "3.A.2 - Manure Management\n"
+# "3.A.2.a - Cattle\n"
+# "3.A.2.a.i - Dairy cows\n"
 # "3.A.2.a.ii - Other cattle\n"
-# "3.A.2.b - Buffalo\n" 
+# "3.A.2.b - Buffalo\n"
 # "3.A.2.c - Sheep\n"
 # "3.A.2.d - Goats\n"
-# "3.A.2.e - Camels\n" 
-# "3.A.2.f - Horses\n" 
+# "3.A.2.e - Camels\n"
+# "3.A.2.f - Horses\n"
 # "3.A.2.g - Mules and Asses\n"
 # "3.A.2.h - Swine\n"
-# "3.A.2.i - Poultry\n"  
+# "3.A.2.i - Poultry\n"
+# "3.A.2.j - Other (please specify)\n"
 
+# "3.B - Land\n"
+
+# "3.B.1 - Cattle\n" EMEP
+# "3.B.1 - Forest land\n" IPCC
+
+# "3.B.1.a - Dairy cattle\n" EMEP
+# "3.B.1.a - Forest land Remaining Forest land\n" IPCC
+
+# "3.B.1.b - Non-dairy cattle \n" EMEP
+# "3.B.1.b - Land Converted to Forest land\n" IPCC
+
+library(data.table)
 library(data.table)
 library(pega)
 
@@ -131,7 +144,7 @@ library(pega)
 db <- ef(returnfdb = T)
 
 db[,
-  grep("3.A.2", code, value = T)
+  grep("3.B.1", code, value = T)
 ] |>
   unique() -> ll
 
@@ -139,7 +152,7 @@ ll[order(ll)]
 
 # database final
 db[
-  code == "3.A.2.i"
+  code == "3.B.1.b"
 ] -> dbf
 
 unique(dbf$pol)
@@ -151,28 +164,32 @@ dbf[, unique(category)]
 dbf[, unique(region), by = pol]
 
 db[
-  code == "3.A.2.i",
+  code == "3.B.1.b",
   unique(tech),
   by = source
 ][source == "EMEP"]
 
+db[
+  code == "3.B.1.b",
+  unique(unit),
+  by = source
+][source == "EMEP"]$V1
 
 db[
-  code == "3.A.2.i",
+  code == "3.B.1.b",
   unique(tech),
   by = source
 ][source == "IPCC"]
 
 db[
-  code == "3.A.2.i",
+  code == "3.B.1.b",
   unique(unit),
   by = source
 ][source == "IPCC"]
 
-
 db[
-  code == "3.A.2.i"
-][unit == "g CH4/kg VS"][3] -> db_ef
+  code == "3.B.1.b"
+][unit == "g a–1 AAP–1 NH3"][1] -> db_ef
 
 db_ef[, pol := gsub(" ", "", pol)]
 
@@ -187,9 +204,9 @@ activity <- data.table(
   lat = -23,
   lon = -46,
   alt = 10,
-  code = "3.A.2.i",
+  code = "3.B.1.n",
   activity = rnorm(n = 12, mean = 500, sd = 100),
-  unit = "kg VS",
+  unit = "a–1 AAP–1 NH3",
   date = seq.Date(as.Date("2020-01-01"), length.out = 12, by = "month"),
   region = "HERE"
 )
@@ -217,5 +234,5 @@ dt[, emissions := ef * activity] # need to change unit of ef from kg to g
 
 fwrite(
   dt,
-  "estimation/3_agricultural/3a2i/emissions/3a2i.csv"
+  "estimation/3_agricultural/3b1b/emissions/3b1b_emep.csv"
 )
