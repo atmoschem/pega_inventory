@@ -186,6 +186,8 @@
 # "3.D.a.4 - "Crop residues applied to soils"
 # "3.D.c - "Farm-level agricultural operations including storage, handling and transport of agricultural products"
 # "3.D.e - "Cultivated crops"
+# "4.A - Solid Waste Disposal\n"
+# "4.A.1 - Managed Waste Disposal Sites\n"
 
 library(data.table)
 library(pega)
@@ -200,7 +202,7 @@ db[,
 
 ll[order(ll)]
 
-codex <- "3.D.e"
+codex <- "4.A.1"
 
 # database final
 db[
@@ -241,7 +243,7 @@ db[
 
 db[
   code == codex
-][unit == "kg ha–1"] -> db_ef
+][unit == "g/person"][1] -> db_ef
 
 db_ef[, pol := gsub(" ", "", pol)]
 
@@ -258,7 +260,7 @@ activity <- data.table(
   alt = 10,
   code = codex,
   activity = rnorm(n = 12, mean = 500, sd = 100),
-  unit = "ha",
+  unit = "person",
   date = seq.Date(as.Date("2020-01-01"), length.out = 12, by = "month"),
   region = "HERE"
 )
@@ -286,5 +288,5 @@ dt[, emissions := ef *1000* activity] # need to change unit of ef from kg to g
 
 fwrite(
   dt,
-  "estimation/3_agricultural/3d/emissions/3de.csv"
+  "estimation/4_waste/4a/emissions/4a1.csv"
 )
