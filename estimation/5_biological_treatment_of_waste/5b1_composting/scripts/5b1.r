@@ -197,7 +197,7 @@
 # "4.D.1 - Domestic Wastewaster Treatment and Discharge\n" 
 # "4.D.2 - Industrial Wastewater Treatment and Discharge\n"
 # "4.E - Other (please specify)\n"
-
+# 5.B.1 - "Biological treatment of waste - Composting"
 library(data.table)
 library(pega)
 
@@ -205,13 +205,13 @@ library(pega)
 db <- ef(returnfdb = T)
 
 db[,
-  grep("4A", code, value = T)
+  grep("5.B", code, value = T)
 ] |>
   unique() -> ll
 
 ll[order(ll)]
 
-codex <- "4.E"
+codex <- "5.B.1"
 
 # database final
 db[
@@ -252,7 +252,7 @@ db[
 
 db[
   code == codex
-][ unit %in% c("g CH4/Mg plant waste", "g N2O/Mg plant waste")] -> db_ef
+][unit == "g/Mg"][2:3] -> db_ef
 
 db_ef[, pol := gsub(" ", "", pol)]
 
@@ -269,7 +269,7 @@ activity <- data.table(
   alt = 10,
   code = codex,
   activity = rnorm(n = 12, mean = 500, sd = 100),
-  unit = "Mg plant waste",
+  unit = "Mg",
   date = seq.Date(as.Date("2020-01-01"), length.out = 12, by = "month"),
   region = "HERE"
 )
@@ -297,5 +297,5 @@ dt[, emissions := ef *1000* activity] # need to change unit of ef from kg to g
 
 fwrite(
   dt,
-  "estimation/4_waste/4e/emissions/4e.csv"
+  "estimation/5/5b/emissions/5b1.csv"
 )

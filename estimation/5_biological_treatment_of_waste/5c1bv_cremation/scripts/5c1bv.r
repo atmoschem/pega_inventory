@@ -197,6 +197,13 @@
 # "4.D.1 - Domestic Wastewaster Treatment and Discharge\n" 
 # "4.D.2 - Industrial Wastewater Treatment and Discharge\n"
 # "4.E - Other (please specify)\n"
+# 5.B.1 - "Biological treatment of waste - Composting"
+# 5.B.2 - "Biological treatment of waste - Anaerobic digestion at biogas facilities"
+# 5.C.1.a - "Municipal waste incineration"
+# 5.C.1.b.i - "Industrial waste incineration"
+# 5.C.1.b.iii - "Clinical waste incineration"
+# 5.C.1.b.iv - "Sewage sludge incineration"
+# 5.C.1.b.v - "Cremation"
 
 library(data.table)
 library(pega)
@@ -205,13 +212,13 @@ library(pega)
 db <- ef(returnfdb = T)
 
 db[,
-  grep("4A", code, value = T)
+  grep("5.C", code, value = T)
 ] |>
   unique() -> ll
 
 ll[order(ll)]
 
-codex <- "4.E"
+codex <- "5.C.1.b.v"
 
 # database final
 db[
@@ -228,7 +235,13 @@ dbf[, unique(region), by = pol]
 
 db[
   code == codex,
-  unique(tech),
+  unique(type),
+  by = source
+][source == "EMEP"]
+
+db[
+  code == codex,
+  unique(tech2),
   by = source
 ][source == "EMEP"]
 
@@ -251,8 +264,8 @@ db[
 ][source == "IPCC"]
 
 db[
-  code == codex
-][ unit %in% c("g CH4/Mg plant waste", "g N2O/Mg plant waste")] -> db_ef
+  code == codex 
+][type == "Tier 1 Emission Factor"] -> db_ef
 
 db_ef[, pol := gsub(" ", "", pol)]
 
@@ -269,7 +282,7 @@ activity <- data.table(
   alt = 10,
   code = codex,
   activity = rnorm(n = 12, mean = 500, sd = 100),
-  unit = "Mg plant waste",
+  unit = "body",
   date = seq.Date(as.Date("2020-01-01"), length.out = 12, by = "month"),
   region = "HERE"
 )
@@ -290,12 +303,12 @@ rbindlist(lapply(1:nrow(activity), function(i) {
 
 dt[, emissions := ef *1000* activity] # need to change unit of ef from kg to g
 # BC is % of PM2.5
-# dt[pol == "PM2.5"]
-# dt[pol == "BC"]
-# dt[pol == "BC", emissions := ef  * dt[pol == "PM2.5"]$emissions]
-# dt[pol == "BC"]
+dt[pol == "PM2.5"]
+dt[pol == "BC"]
+dt[pol == "BC", emissions := ef  * dt[pol == "PM2.5"]$emissions]
+dt[pol == "BC"]
 
 fwrite(
   dt,
-  "estimation/4_waste/4e/emissions/4e.csv"
+  "estimation/5/5c/emissions/5c1biv.csv"
 )
