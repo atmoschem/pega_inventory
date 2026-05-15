@@ -1,0 +1,90 @@
+# IPCC
+# 1: Energy
+# 1.A Fuel Combustion Activities
+# 1.A.1.a Main Activities Electricity and Heat Production
+# category: 1.A.1.a Public electricity and heat production
+
+library(data.table)
+library(pega)
+
+# database
+db <- ef(returnfdb = T)
+
+# database final
+db[
+  grepl("1.A.1.a", code) &
+    is.na(region)
+] -> dbf
+
+# category
+dbf[, unique(category)]
+
+# fuels
+fuels <- dbf[, unique(fuel)]
+cat(fuels, sep = "\n")
+
+# Hard Coal ####
+dbf[fuel == "Hard Coal", unique(type)]
+
+dbf[
+  fuel == "Hard Coal" &
+    type == "Tier 1 Emission Factor"
+] -> db_ef
+
+db_ef
+db_ef[, .N, by = pol]
+
+db_ef[, unique(tech2)]
+
+x <- fread("../pega/data/tpp_coal_2020.txt")
+x$ID
+x[, id := ID]
+x[, lat := latitude]
+
+activity <- data.table(
+  id = x$ID,
+  lat = x$latitude,
+  lon = x$longitude,
+  alt = 20,
+  code = "1.A.1.a",
+  activity = x$Fuel_consumed_plant_GJ, #GJ
+  unit = "GJ",
+  date = as.Date(ISOdate(year = x$year, 1, 1, 0,0,0)),
+  region = "UF"
+)
+
+rbindlist(lapply(1:nrow(activity), function(i) {
+  df <- db_ef
+  df$id <- activity$id[i]
+  df$lat <- activity$lat[i]
+  df$lon <- activity$lon[i]
+  df$alt <- activity$alt[i]
+
+  df$activity <- activity$activity[i]
+  df$unit_activity <- activity$unit[i]
+  df$date_activity <- activity$date[i]
+  df$region <- activity$region[i]
+  df
+})) -> dt
+
+dt[, emissions := ef * activity]
+# BC is % of PM2.5
+dt[pol == "PM2.5"]
+dt[pol == "BC"]
+dt[pol == "BC", emissions := ef * dt[pol == "PM2.5"]$emissions]
+dt[pol == "BC"]
+fwrite(dt, "estimation/1_energy/1a_fuel_consumption/1a1_electricity_heat/EMEP_1A1a_hard_coal.csv")
+dt[, sum(emissions), by = pol]
+# Natural Gas ####
+# Heavy Fuel Oil ####
+# Brown Coal ####
+# Hard Coal ####
+# Biomass ####
+# Blast furnace/Basic O2 furnace gas ####
+# Biogas ####
+# Coking Coal, Steam Coal & Sub-Bituminous Coal ####
+# Oil Gas ####
+# Wood and wood waste (clean wood waste) ####
+# Brown Coal/Lignite ####
+# Residual Oil ####
+# Gaseous Fuels ####
