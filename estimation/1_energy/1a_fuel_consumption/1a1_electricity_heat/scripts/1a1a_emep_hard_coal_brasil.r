@@ -70,7 +70,7 @@ dt[pol == "PM2.5"]
 dt[pol == "BC"]
 dt[pol == "BC", emissions := ef * dt[pol == "PM2.5"]$emissions]
 dt[pol == "BC"]
-fwrite(dt, "estimation/1_energy/1a_fuel_consumption/1a1_electricity_heat/EMEP_1A1a_hard_coal.csv")
+fwrite(dt, "estimation/1_energy/1a_fuel_consumption/1a1_electricity_heat/emissions/EMEP_1A1a_hard_coal.csv.gz")
 dt[, sum(emissions), by = pol]
 # Natural Gas ####
 # Heavy Fuel Oil ####
