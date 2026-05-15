@@ -2,7 +2,7 @@
 # 1: Energy
 # 1.A Fuel Combustion Activities
 # 1.A.1.a Main Activities Electricity and Heat Production
-# category: 1.A.1.a.i Electricity Generation
+# category: 1.A.1.a Public electricity and heat production
 
 library(data.table)
 library(pega)
@@ -11,13 +11,9 @@ library(pega)
 db <- ef(returnfdb = T)
 
 # database final
-db[,
-  grep("1.A.1.a", code, value = T),
-] |>
-  unique()
-
 db[
-  code == "1.A.1.a.i"
+  grepl("1.A.1.a", code) &
+    is.na(region)
 ] -> dbf
 
 # category
@@ -27,22 +23,18 @@ dbf[, unique(category)]
 fuels <- dbf[, unique(fuel)]
 cat(fuels, sep = "\n")
 
-dbf[fuel == "Anthracite"]
-
-# Anthracite ####
-dbf[fuel == "Anthracite", unique(tech)]
+# Hard Coal ####
+dbf[fuel == "Hard Coal", unique(type)]
 
 dbf[
-  fuel == "Anthracite" &
-    tech %in%
-      c(
-        "Power Boiler with circulating fluidized bed in the capacity of 200MW",
-        "Combustion at thermal power plants"
-      )
+  fuel == "Hard Coal" &
+    type == "Tier 1 Emission Factor"
 ] -> db_ef
 
 db_ef
 db_ef[, .N, by = pol]
+
+db_ef[, unique(tech2)]
 
 x <- fread("../pega/data/tpp_coal_2020.txt")
 
@@ -72,16 +64,14 @@ rbindlist(lapply(1:nrow(activity), function(i) {
   df
 })) -> dt
 
-
 dt[, emissions := ef * activity]
 # BC is % of PM2.5
-# dt[pol == "PM2.5"]
-# dt[pol == "BC"]
-# dt[pol == "BC", emissions := ef / 100 * dt[pol == "PM2.5"]$emissions]
-# dt[pol == "BC"]
-fwrite(dt, "estimation/1/1.A/1.A.1/emissions/IPCC_1A1ai_anthracite.csv")
-
-#EMEP
+dt[pol == "PM2.5"]
+dt[pol == "BC"]
+dt[pol == "BC", emissions := ef * dt[pol == "PM2.5"]$emissions]
+dt[pol == "BC"]
+fwrite(dt, "estimation/1_energy/1a_fuel_consumption/1a1_electricity_heat/EMEP_1A1a_hard_coal.csv")
+dt[, sum(emissions), by = pol]
 # Natural Gas ####
 # Heavy Fuel Oil ####
 # Brown Coal ####
@@ -95,12 +85,3 @@ fwrite(dt, "estimation/1/1.A/1.A.1/emissions/IPCC_1A1ai_anthracite.csv")
 # Brown Coal/Lignite ####
 # Residual Oil ####
 # Gaseous Fuels ####
-
-# IPCC
-# Other Bituminous Coal
-# Other Biogas
-# Landfill Gas
-# Diesel Oil
-# Natural Gas
-# Anthracite
-# Residual Fuel Oil
